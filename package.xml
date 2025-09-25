@@ -1,16 +1,39 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>seav2</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <name>seav_ii</name>
+  <version>0.1.0</version>
+  <description>SEAV-II metapackage grouping all subpackages in this repo.</description>
   <maintainer email="my_email@email.com">MY NAME</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <exec_depend>seav2</exec_depend>
+  <exec_depend>carlikebot_ros2_control</exec_depend>
+  <exec_depend>ros2_control_demo_description</exec_depend>
+  <exec_depend>serial</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>seav2_meta</name>
+  <version>0.1.0</version>
+  <description>Metapackage that groups SEAV-II ROS 2 packages for single-repo builds.</description>
+  <maintainer email="my_email@email.com">MY NAME</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Grouped packages -->
+  <exec_depend>seav2</exec_depend>
+  <exec_depend>carlikebot_ros2_control</exec_depend>
+  <exec_depend>ros2_control_demo_description</exec_depend>
+  <exec_depend>serial</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
