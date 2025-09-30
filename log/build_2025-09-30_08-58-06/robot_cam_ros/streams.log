@@ -1,0 +1,17 @@
+[14.331s] Invoking command in '/home/pi/seav2/build/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/robot_cam_ros/build --no-deps symlink_data
+[19.060s] running develop
+[22.389s] running egg_info
+[22.392s] writing robot_cam_ros.egg-info/PKG-INFO
+[22.395s] writing dependency_links to robot_cam_ros.egg-info/dependency_links.txt
+[22.398s] writing entry points to robot_cam_ros.egg-info/entry_points.txt
+[22.400s] writing requirements to robot_cam_ros.egg-info/requires.txt
+[22.402s] writing top-level names to robot_cam_ros.egg-info/top_level.txt
+[22.426s] reading manifest file 'robot_cam_ros.egg-info/SOURCES.txt'
+[22.442s] writing manifest file 'robot_cam_ros.egg-info/SOURCES.txt'
+[22.468s] running build_ext
+[22.470s] Creating /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot-cam-ros.egg-link (link to .)
+[22.478s] Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+[22.485s] 
+[22.486s] Installed /home/pi/seav2/build/robot_cam_ros
+[22.487s] running symlink_data
+[22.792s] Invoked command in '/home/pi/seav2/build/robot_cam_ros' returned '0': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/robot_cam_ros/build --no-deps symlink_data

@@ -1,0 +1,54 @@
+[7.873s] Invoking command in '/home/pi/seav2/src/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/pi/seav2/build/ball_tracker/build install --record /home/pi/seav2/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data
+[10.168s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[10.168s]   warnings.warn(
+[10.222s] running egg_info
+[10.232s] creating ../../build/ball_tracker/ball_tracker.egg-info
+[10.233s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[10.234s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[10.235s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[10.236s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[10.237s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[10.238s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[10.247s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[10.251s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[10.252s] running build
+[10.260s] running build_py
+[10.260s] creating /home/pi/seav2/build/ball_tracker/build
+[10.265s] creating /home/pi/seav2/build/ball_tracker/build/lib
+[10.266s] creating /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.267s] copying ball_tracker/__init__.py -> /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.268s] copying ball_tracker/follow_ball.py -> /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.269s] copying ball_tracker/detect_ball_3d.py -> /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.269s] copying ball_tracker/process_image.py -> /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.270s] copying ball_tracker/detect_ball.py -> /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker
+[10.271s] running install
+[10.272s] running install_lib
+[10.272s] creating /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.273s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.273s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.274s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.274s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.275s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[10.277s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[10.278s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[10.282s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[10.285s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[10.298s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[10.300s] running install_data
+[10.301s] creating /home/pi/seav2/install/ball_tracker/share/ament_index
+[10.302s] creating /home/pi/seav2/install/ball_tracker/share/ament_index/resource_index
+[10.303s] creating /home/pi/seav2/install/ball_tracker/share/ament_index/resource_index/packages
+[10.304s] copying resource/ball_tracker -> /home/pi/seav2/install/ball_tracker/share/ament_index/resource_index/packages
+[10.305s] copying package.xml -> /home/pi/seav2/install/ball_tracker/share/ball_tracker
+[10.305s] creating /home/pi/seav2/install/ball_tracker/share/ball_tracker/launch
+[10.306s] copying launch/ball_tracker.launch.py -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/launch
+[10.307s] copying launch/example_launch_include.launch.py -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/launch
+[10.307s] creating /home/pi/seav2/install/ball_tracker/share/ball_tracker/config
+[10.308s] copying config/ball_tracker_params_example.yaml -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/config
+[10.309s] running install_egg_info
+[10.330s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[10.338s] running install_scripts
+[10.507s] Installing detect_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[10.509s] Installing detect_ball_3d script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[10.509s] Installing follow_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[10.512s] writing list of installed files to '/home/pi/seav2/build/ball_tracker/install.log'

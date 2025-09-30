@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.001873] (-) JobUnselected: {'identifier': 'ball_tracker'}
+[0.003031] (-) JobUnselected: {'identifier': 'carlikebot_ros2_control'}
+[0.003572] (-) JobUnselected: {'identifier': 'robot_cam_ros'}
+[0.004270] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.004689] (-) JobUnselected: {'identifier': 'seav2'}
+[0.004953] (-) JobUnselected: {'identifier': 'serial'}
+[0.005216] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.005562] (seav2_imu) JobQueued: {'identifier': 'seav2_imu', 'dependencies': OrderedDict()}
+[0.005856] (seav2_imu) JobStarted: {'identifier': 'seav2_imu'}
+[0.095318] (-) TimerEvent: {}
+[0.196705] (-) TimerEvent: {}
+[0.297981] (-) TimerEvent: {}
+[0.399196] (-) TimerEvent: {}
+[0.500419] (-) TimerEvent: {}
+[0.601658] (-) TimerEvent: {}
+[0.702888] (-) TimerEvent: {}
+[0.804253] (-) TimerEvent: {}
+[0.905464] (-) TimerEvent: {}
+[1.006708] (-) TimerEvent: {}
+[1.107991] (-) TimerEvent: {}
+[1.209271] (-) TimerEvent: {}
+[1.310593] (-) TimerEvent: {}
+[1.412124] (-) TimerEvent: {}
+[1.513412] (-) TimerEvent: {}
+[1.614752] (-) TimerEvent: {}
+[1.716037] (-) TimerEvent: {}
+[1.817269] (-) TimerEvent: {}
+[1.918518] (-) TimerEvent: {}
+[2.020540] (-) TimerEvent: {}
+[2.121882] (-) TimerEvent: {}
+[2.223629] (-) TimerEvent: {}
+[2.324834] (-) TimerEvent: {}
+[2.426065] (-) TimerEvent: {}
+[2.527213] (-) TimerEvent: {}
+[2.628454] (-) TimerEvent: {}
+[2.729668] (-) TimerEvent: {}
+[2.830844] (-) TimerEvent: {}
+[2.932109] (-) TimerEvent: {}
+[3.033424] (-) TimerEvent: {}
+[3.134621] (-) TimerEvent: {}
+[3.235894] (-) TimerEvent: {}
+[3.337094] (-) TimerEvent: {}
+[3.438264] (-) TimerEvent: {}
+[3.539537] (-) TimerEvent: {}
+[3.640710] (-) TimerEvent: {}
+[3.741939] (-) TimerEvent: {}
+[3.843243] (-) TimerEvent: {}
+[3.944542] (-) TimerEvent: {}
+[4.045911] (-) TimerEvent: {}
+[4.148405] (-) TimerEvent: {}
+[4.250043] (-) TimerEvent: {}
+[4.351504] (-) TimerEvent: {}
+[4.452707] (-) TimerEvent: {}
+[4.553966] (-) TimerEvent: {}
+[4.655158] (-) TimerEvent: {}
+[4.756401] (-) TimerEvent: {}
+[4.857656] (-) TimerEvent: {}
+[4.960381] (-) TimerEvent: {}
+[5.061685] (-) TimerEvent: {}
+[5.163000] (-) TimerEvent: {}
+[5.264379] (-) TimerEvent: {}
+[5.365633] (-) TimerEvent: {}
+[5.466870] (-) TimerEvent: {}
+[5.568204] (-) TimerEvent: {}
+[5.669788] (-) TimerEvent: {}
+[5.770996] (-) TimerEvent: {}
+[5.872272] (-) TimerEvent: {}
+[5.973554] (-) TimerEvent: {}
+[6.074924] (-) TimerEvent: {}
+[6.176272] (-) TimerEvent: {}
+[6.277634] (-) TimerEvent: {}
+[6.378919] (-) TimerEvent: {}
+[6.480269] (-) TimerEvent: {}
+[6.581573] (-) TimerEvent: {}
+[6.682820] (-) TimerEvent: {}
+[6.784045] (-) TimerEvent: {}
+[6.885294] (-) TimerEvent: {}
+[6.986575] (-) TimerEvent: {}
+[7.087865] (-) TimerEvent: {}
+[7.189116] (-) TimerEvent: {}
+[7.290299] (-) TimerEvent: {}
+[7.391559] (-) TimerEvent: {}
+[7.492743] (-) TimerEvent: {}
+[7.594017] (-) TimerEvent: {}
+[7.695285] (-) TimerEvent: {}
+[7.796615] (-) TimerEvent: {}
+[7.898453] (-) TimerEvent: {}
+[7.999750] (-) TimerEvent: {}
+[8.100953] (-) TimerEvent: {}
+[8.202257] (-) TimerEvent: {}
+[8.303578] (-) TimerEvent: {}
+[8.404973] (-) TimerEvent: {}
+[8.506367] (-) TimerEvent: {}
+[8.607610] (-) TimerEvent: {}
+[8.708778] (-) TimerEvent: {}
+[8.809983] (-) TimerEvent: {}
+[8.911200] (-) TimerEvent: {}
+[9.012446] (-) TimerEvent: {}
+[9.113878] (-) TimerEvent: {}
+[9.215777] (-) TimerEvent: {}
+[9.317336] (-) TimerEvent: {}
+[9.322304] (seav2_imu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/seav2/build/seav2_imu/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/pi/seav2/build/seav2_imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.105 41494 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/seav2/install/carlikebot_ros2_control/lib:/home/pi/seav2/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'ROS_IP': '192.168.137.192', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/home/your_username/.local/lib/python3.10/site-packages/cv2/qt/plugins', 'COLCON_PREFIX_PATH': '/home/pi/seav2/install:/home/pi/ss25/install:/home/pi/ss25/src/description/description/install:/home/pi/ss25/src/summary/install:/home/pi/ss25/src/install:/home/pi/demo_testing_9_april/seav/install:/home/pi/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/seav2/build/seav2_imu', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.105 41494 192.168.0.210 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:/home/pi/ss25/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/install/vup_2k7/lib/python3.10/site-packages:/home/pi/ss25/install/summary/lib/python3.10/site-packages:/home/pi/ss25/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/install/project/lib/python3.10/site-packages:/home/pi/ss25/install/my_slam/lib/python3.10/site-packages:/home/pi/ss25/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/install/final/lib/python3.10/site-packages:/home/pi/ss25/install/description/lib/python3.10/site-packages:/home/pi/ss25/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/ss25/src/summary/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/src/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/src/install/project/lib/python3.10/site-packages:/home/pi/ss25/src/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/src/install/description/lib/python3.10/site-packages:/home/pi/ss25/src/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/install/summary/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/yolov8_ros/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': '192.168.137.192', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg'}, 'shell': False}
+[9.417634] (-) TimerEvent: {}
+[9.518884] (-) TimerEvent: {}
+[9.620144] (-) TimerEvent: {}
+[9.721346] (-) TimerEvent: {}
+[9.822539] (-) TimerEvent: {}
+[9.923777] (-) TimerEvent: {}
+[10.024990] (-) TimerEvent: {}
+[10.126282] (-) TimerEvent: {}
+[10.227584] (-) TimerEvent: {}
+[10.328822] (-) TimerEvent: {}
+[10.430090] (-) TimerEvent: {}
+[10.531312] (-) TimerEvent: {}
+[10.632590] (-) TimerEvent: {}
+[10.733914] (-) TimerEvent: {}
+[10.835276] (-) TimerEvent: {}
+[10.937182] (-) TimerEvent: {}
+[11.038378] (-) TimerEvent: {}
+[11.139588] (-) TimerEvent: {}
+[11.240776] (-) TimerEvent: {}
+[11.341967] (-) TimerEvent: {}
+[11.443177] (-) TimerEvent: {}
+[11.544452] (-) TimerEvent: {}
+[11.645704] (-) TimerEvent: {}
+[11.746941] (-) TimerEvent: {}
+[11.848256] (-) TimerEvent: {}
+[11.950831] (-) TimerEvent: {}
+[12.052292] (-) TimerEvent: {}
+[12.153679] (-) TimerEvent: {}
+[12.254881] (-) TimerEvent: {}
+[12.356199] (-) TimerEvent: {}
+[12.457546] (-) TimerEvent: {}
+[12.558863] (-) TimerEvent: {}
+[12.660219] (-) TimerEvent: {}
+[12.761550] (-) TimerEvent: {}
+[12.862890] (-) TimerEvent: {}
+[12.964258] (-) TimerEvent: {}
+[13.065477] (-) TimerEvent: {}
+[13.166720] (-) TimerEvent: {}
+[13.268046] (-) TimerEvent: {}
+[13.369446] (-) TimerEvent: {}
+[13.436426] (seav2_imu) StdoutLine: {'line': b'running develop\n'}
+[13.469681] (-) TimerEvent: {}
+[13.570960] (-) TimerEvent: {}
+[13.672240] (-) TimerEvent: {}
+[13.773454] (-) TimerEvent: {}
+[13.874732] (-) TimerEvent: {}
+[13.975961] (-) TimerEvent: {}
+[14.077143] (-) TimerEvent: {}
+[14.178406] (-) TimerEvent: {}
+[14.279730] (-) TimerEvent: {}
+[14.380903] (-) TimerEvent: {}
+[14.482165] (-) TimerEvent: {}
+[14.583460] (-) TimerEvent: {}
+[14.684638] (-) TimerEvent: {}
+[14.785802] (-) TimerEvent: {}
+[14.886990] (-) TimerEvent: {}
+[14.988287] (-) TimerEvent: {}
+[15.089646] (-) TimerEvent: {}
+[15.190827] (-) TimerEvent: {}
+[15.292170] (-) TimerEvent: {}
+[15.393329] (-) TimerEvent: {}
+[15.494524] (-) TimerEvent: {}
+[15.595774] (-) TimerEvent: {}
+[15.696955] (-) TimerEvent: {}
+[15.798116] (-) TimerEvent: {}
+[15.899561] (-) TimerEvent: {}
+[16.000736] (-) TimerEvent: {}
+[16.073643] (seav2_imu) StdoutLine: {'line': b'running egg_info\n'}
+[16.075668] (seav2_imu) StdoutLine: {'line': b'writing seav2_imu.egg-info/PKG-INFO\n'}
+[16.077963] (seav2_imu) StdoutLine: {'line': b'writing dependency_links to seav2_imu.egg-info/dependency_links.txt\n'}
+[16.079954] (seav2_imu) StdoutLine: {'line': b'writing entry points to seav2_imu.egg-info/entry_points.txt\n'}
+[16.082164] (seav2_imu) StdoutLine: {'line': b'writing requirements to seav2_imu.egg-info/requires.txt\n'}
+[16.083880] (seav2_imu) StdoutLine: {'line': b'writing top-level names to seav2_imu.egg-info/top_level.txt\n'}
+[16.100996] (-) TimerEvent: {}
+[16.102244] (seav2_imu) StdoutLine: {'line': b"reading manifest file 'seav2_imu.egg-info/SOURCES.txt'\n"}
+[16.110655] (seav2_imu) StdoutLine: {'line': b"writing manifest file 'seav2_imu.egg-info/SOURCES.txt'\n"}
+[16.131919] (seav2_imu) StdoutLine: {'line': b'running build_ext\n'}
+[16.134546] (seav2_imu) StdoutLine: {'line': b'Creating /home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages/seav2-imu.egg-link (link to .)\n'}
+[16.142911] (seav2_imu) StdoutLine: {'line': b'Installing mpu6050_node script to /home/pi/seav2/install/seav2_imu/lib/seav2_imu\n'}
+[16.145754] (seav2_imu) StdoutLine: {'line': b'\n'}
+[16.147188] (seav2_imu) StdoutLine: {'line': b'Installed /home/pi/seav2/build/seav2_imu\n'}
+[16.148544] (seav2_imu) StdoutLine: {'line': b'running symlink_data\n'}
+[16.149532] (seav2_imu) StdoutLine: {'line': b'symbolically linking /home/pi/seav2/build/seav2_imu/resource/seav2_imu -> /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index/packages\n'}
+[16.151069] (seav2_imu) StdoutLine: {'line': b'symbolically linking /home/pi/seav2/build/seav2_imu/package.xml -> /home/pi/seav2/install/seav2_imu/share/seav2_imu\n'}
+[16.201473] (-) TimerEvent: {}
+[16.303310] (-) TimerEvent: {}
+[16.376331] (seav2_imu) CommandEnded: {'returncode': 0}
+[16.403538] (-) TimerEvent: {}
+[16.505012] (-) TimerEvent: {}
+[16.518699] (seav2_imu) JobEnded: {'identifier': 'seav2_imu', 'rc': 0}
+[16.524778] (-) EventReactorShutdown: {}

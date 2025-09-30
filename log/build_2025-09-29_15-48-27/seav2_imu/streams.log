@@ -1,0 +1,19 @@
+[9.323s] Invoking command in '/home/pi/seav2/build/seav2_imu': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data --force
+[13.430s] running develop
+[16.067s] running egg_info
+[16.069s] writing seav2_imu.egg-info/PKG-INFO
+[16.072s] writing dependency_links to seav2_imu.egg-info/dependency_links.txt
+[16.074s] writing entry points to seav2_imu.egg-info/entry_points.txt
+[16.076s] writing requirements to seav2_imu.egg-info/requires.txt
+[16.077s] writing top-level names to seav2_imu.egg-info/top_level.txt
+[16.096s] reading manifest file 'seav2_imu.egg-info/SOURCES.txt'
+[16.104s] writing manifest file 'seav2_imu.egg-info/SOURCES.txt'
+[16.126s] running build_ext
+[16.128s] Creating /home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages/seav2-imu.egg-link (link to .)
+[16.137s] Installing mpu6050_node script to /home/pi/seav2/install/seav2_imu/lib/seav2_imu
+[16.140s] 
+[16.141s] Installed /home/pi/seav2/build/seav2_imu
+[16.142s] running symlink_data
+[16.143s] symbolically linking /home/pi/seav2/build/seav2_imu/resource/seav2_imu -> /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index/packages
+[16.145s] symbolically linking /home/pi/seav2/build/seav2_imu/package.xml -> /home/pi/seav2/install/seav2_imu/share/seav2_imu
+[16.374s] Invoked command in '/home/pi/seav2/build/seav2_imu' returned '0': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data --force

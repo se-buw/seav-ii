@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/robot_cam_ros/robot_cam_ros.egg-info
+writing ../../build/robot_cam_ros/robot_cam_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_cam_ros/robot_cam_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_cam_ros/robot_cam_ros.egg-info/entry_points.txt
+writing requirements to ../../build/robot_cam_ros/robot_cam_ros.egg-info/requires.txt
+writing top-level names to ../../build/robot_cam_ros/robot_cam_ros.egg-info/top_level.txt
+writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/seav2/build/robot_cam_ros/build
+creating /home/pi/seav2/build/robot_cam_ros/build/lib
+creating /home/pi/seav2/build/robot_cam_ros/build/lib/robot_cam_ros
+copying robot_cam_ros/follow_cam_node.py -> /home/pi/seav2/build/robot_cam_ros/build/lib/robot_cam_ros
+copying robot_cam_ros/__init__.py -> /home/pi/seav2/build/robot_cam_ros/build/lib/robot_cam_ros
+running install
+running install_lib
+creating /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros
+copying /home/pi/seav2/build/robot_cam_ros/build/lib/robot_cam_ros/follow_cam_node.py -> /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros
+copying /home/pi/seav2/build/robot_cam_ros/build/lib/robot_cam_ros/__init__.py -> /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros
+byte-compiling /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros/follow_cam_node.py to follow_cam_node.cpython-310.pyc
+byte-compiling /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pi/seav2/install/robot_cam_ros/share/ament_index
+creating /home/pi/seav2/install/robot_cam_ros/share/ament_index/resource_index
+creating /home/pi/seav2/install/robot_cam_ros/share/ament_index/resource_index/packages
+copying resource/robot_cam_ros -> /home/pi/seav2/install/robot_cam_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros
+creating /home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/launch
+copying launch/follow_cam.launch.py -> /home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/launch
+running install_egg_info
+Copying ../../build/robot_cam_ros/robot_cam_ros.egg-info to /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info
+running install_scripts
+Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+writing list of installed files to '/home/pi/seav2/build/robot_cam_ros/install.log'

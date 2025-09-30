@@ -1,0 +1,17 @@
+[9.325s] Invoking command in '/home/pi/seav2/build/seav2_imu': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data
+[13.442s] running develop
+[16.147s] running egg_info
+[16.149s] writing seav2_imu.egg-info/PKG-INFO
+[16.152s] writing dependency_links to seav2_imu.egg-info/dependency_links.txt
+[16.155s] writing entry points to seav2_imu.egg-info/entry_points.txt
+[16.157s] writing requirements to seav2_imu.egg-info/requires.txt
+[16.159s] writing top-level names to seav2_imu.egg-info/top_level.txt
+[16.179s] reading manifest file 'seav2_imu.egg-info/SOURCES.txt'
+[16.188s] writing manifest file 'seav2_imu.egg-info/SOURCES.txt'
+[16.210s] running build_ext
+[16.212s] Creating /home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages/seav2-imu.egg-link (link to .)
+[16.221s] Installing mpu6050_node script to /home/pi/seav2/install/seav2_imu/lib/seav2_imu
+[16.225s] 
+[16.226s] Installed /home/pi/seav2/build/seav2_imu
+[16.227s] running symlink_data
+[16.457s] Invoked command in '/home/pi/seav2/build/seav2_imu' returned '0': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data

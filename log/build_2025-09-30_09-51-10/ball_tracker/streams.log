@@ -1,0 +1,21 @@
+[15.257s] Invoking command in '/home/pi/seav2/build/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/ball_tracker/build --no-deps symlink_data
+[20.064s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[20.066s]   warnings.warn(
+[20.474s] running develop
+[24.255s] running egg_info
+[24.261s] writing ball_tracker.egg-info/PKG-INFO
+[24.262s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[24.267s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[24.277s] writing requirements to ball_tracker.egg-info/requires.txt
+[24.278s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[24.290s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[24.311s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[24.330s] running build_ext
+[24.333s] Creating /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[24.342s] Installing detect_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[24.349s] Installing detect_ball_3d script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[24.350s] Installing follow_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[24.352s] 
+[24.353s] Installed /home/pi/seav2/build/ball_tracker
+[24.354s] running symlink_data
+[24.642s] Invoked command in '/home/pi/seav2/build/ball_tracker' returned '0': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/ball_tracker/build --no-deps symlink_data

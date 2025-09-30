@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing robot_cam_ros.egg-info/PKG-INFO
+writing dependency_links to robot_cam_ros.egg-info/dependency_links.txt
+writing entry points to robot_cam_ros.egg-info/entry_points.txt
+writing requirements to robot_cam_ros.egg-info/requires.txt
+writing top-level names to robot_cam_ros.egg-info/top_level.txt
+reading manifest file 'robot_cam_ros.egg-info/SOURCES.txt'
+writing manifest file 'robot_cam_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot-cam-ros.egg-link (link to .)
+Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+
+Installed /home/pi/seav2/build/robot_cam_ros
+running symlink_data
+symbolically linking /home/pi/seav2/build/robot_cam_ros/resource/robot_cam_ros -> /home/pi/seav2/install/robot_cam_ros/share/ament_index/resource_index/packages
+symbolically linking /home/pi/seav2/build/robot_cam_ros/package.xml -> /home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros
+symbolically linking /home/pi/seav2/build/robot_cam_ros/launch/follow_cam.launch.py -> /home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/launch

@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001046] (-) JobUnselected: {'identifier': 'carlikebot_ros2_control'}
+[0.002098] (-) JobUnselected: {'identifier': 'robot_cam_ros'}
+[0.002206] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003252] (-) JobUnselected: {'identifier': 'seav2'}
+[0.003357] (-) JobUnselected: {'identifier': 'serial'}
+[0.003449] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.003575] (ball_tracker) JobQueued: {'identifier': 'ball_tracker', 'dependencies': OrderedDict()}
+[0.003676] (ball_tracker) JobStarted: {'identifier': 'ball_tracker'}
+[0.098941] (-) TimerEvent: {}
+[0.199646] (-) TimerEvent: {}
+[0.300314] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.501751] (-) TimerEvent: {}
+[0.602480] (-) TimerEvent: {}
+[0.703208] (-) TimerEvent: {}
+[0.803919] (-) TimerEvent: {}
+[0.904604] (-) TimerEvent: {}
+[1.005265] (-) TimerEvent: {}
+[1.105959] (-) TimerEvent: {}
+[1.206676] (-) TimerEvent: {}
+[1.307385] (-) TimerEvent: {}
+[1.408035] (-) TimerEvent: {}
+[1.508714] (-) TimerEvent: {}
+[1.609482] (-) TimerEvent: {}
+[1.710166] (-) TimerEvent: {}
+[1.811044] (-) TimerEvent: {}
+[1.912247] (-) TimerEvent: {}
+[2.013408] (-) TimerEvent: {}
+[2.115541] (-) TimerEvent: {}
+[2.216250] (-) TimerEvent: {}
+[2.316993] (-) TimerEvent: {}
+[2.417656] (-) TimerEvent: {}
+[2.518385] (-) TimerEvent: {}
+[2.619194] (-) TimerEvent: {}
+[2.719878] (-) TimerEvent: {}
+[2.820540] (-) TimerEvent: {}
+[2.921226] (-) TimerEvent: {}
+[3.021945] (-) TimerEvent: {}
+[3.122676] (-) TimerEvent: {}
+[3.223511] (-) TimerEvent: {}
+[3.324172] (-) TimerEvent: {}
+[3.424830] (-) TimerEvent: {}
+[3.525510] (-) TimerEvent: {}
+[3.626190] (-) TimerEvent: {}
+[3.726888] (-) TimerEvent: {}
+[3.827724] (-) TimerEvent: {}
+[3.928425] (-) TimerEvent: {}
+[4.029091] (-) TimerEvent: {}
+[4.129869] (-) TimerEvent: {}
+[4.231286] (-) TimerEvent: {}
+[4.333156] (-) TimerEvent: {}
+[4.398445] (ball_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ball_tracker', 'build', '--build-base', '/home/pi/seav2/build/ball_tracker/build', 'install', '--record', '/home/pi/seav2/build/ball_tracker/install.log', '--install-scripts', '$base/lib/ball_tracker', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/seav2/src/ball_tracker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.105 46550 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/seav2/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/seav2', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'ROS_IP': '192.168.137.192', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/home/your_username/.local/lib/python3.10/site-packages/cv2/qt/plugins', 'COLCON_PREFIX_PATH': '/home/pi/seav2/install:/home/pi/ss25/install:/home/pi/ss25/src/description/description/install:/home/pi/ss25/src/summary/install:/home/pi/ss25/src/install:/home/pi/demo_testing_9_april/seav/install:/home/pi/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/seav2/build/ball_tracker', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.105 46550 192.168.0.210 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:/home/pi/ss25/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/install/vup_2k7/lib/python3.10/site-packages:/home/pi/ss25/install/summary/lib/python3.10/site-packages:/home/pi/ss25/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/install/project/lib/python3.10/site-packages:/home/pi/ss25/install/my_slam/lib/python3.10/site-packages:/home/pi/ss25/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/install/final/lib/python3.10/site-packages:/home/pi/ss25/install/description/lib/python3.10/site-packages:/home/pi/ss25/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/ss25/src/summary/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/src/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/src/install/project/lib/python3.10/site-packages:/home/pi/ss25/src/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/src/install/description/lib/python3.10/site-packages:/home/pi/ss25/src/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/install/summary/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/yolov8_ros/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': '192.168.137.192', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg'}, 'shell': False}
+[4.433474] (-) TimerEvent: {}
+[4.534519] (-) TimerEvent: {}
+[4.635694] (-) TimerEvent: {}
+[4.736862] (-) TimerEvent: {}
+[4.838544] (-) TimerEvent: {}
+[4.939332] (-) TimerEvent: {}
+[5.040128] (-) TimerEvent: {}
+[5.140799] (-) TimerEvent: {}
+[5.241473] (-) TimerEvent: {}
+[5.342191] (-) TimerEvent: {}
+[5.442942] (-) TimerEvent: {}
+[5.543684] (-) TimerEvent: {}
+[5.644511] (-) TimerEvent: {}
+[5.745967] (-) TimerEvent: {}
+[5.846650] (-) TimerEvent: {}
+[5.947323] (-) TimerEvent: {}
+[6.048069] (-) TimerEvent: {}
+[6.148744] (-) TimerEvent: {}
+[6.225296] (ball_tracker) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.226062] (ball_tracker) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.248936] (-) TimerEvent: {}
+[6.276548] (ball_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[6.285283] (ball_tracker) StdoutLine: {'line': b'writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO\n'}
+[6.286495] (ball_tracker) StdoutLine: {'line': b'writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt\n'}
+[6.287508] (ball_tracker) StdoutLine: {'line': b'writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt\n'}
+[6.288540] (ball_tracker) StdoutLine: {'line': b'writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt\n'}
+[6.289158] (ball_tracker) StdoutLine: {'line': b'writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt\n'}
+[6.299032] (ball_tracker) StdoutLine: {'line': b"reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'\n"}
+[6.304255] (ball_tracker) StdoutLine: {'line': b"writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'\n"}
+[6.305372] (ball_tracker) StdoutLine: {'line': b'running build\n'}
+[6.306428] (ball_tracker) StdoutLine: {'line': b'running build_py\n'}
+[6.310407] (ball_tracker) StdoutLine: {'line': b'running install\n'}
+[6.312039] (ball_tracker) StdoutLine: {'line': b'running install_lib\n'}
+[6.321302] (ball_tracker) StdoutLine: {'line': b'running install_data\n'}
+[6.322707] (ball_tracker) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.333020] (ball_tracker) StdoutLine: {'line': b"removing '/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.335051] (ball_tracker) StdoutLine: {'line': b'Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info\n'}
+[6.344678] (ball_tracker) StdoutLine: {'line': b'running install_scripts\n'}
+[6.349173] (-) TimerEvent: {}
+[6.449967] (-) TimerEvent: {}
+[6.462834] (ball_tracker) StdoutLine: {'line': b'Installing detect_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker\n'}
+[6.463944] (ball_tracker) StdoutLine: {'line': b'Installing detect_ball_3d script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker\n'}
+[6.464840] (ball_tracker) StdoutLine: {'line': b'Installing follow_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker\n'}
+[6.466968] (ball_tracker) StdoutLine: {'line': b"writing list of installed files to '/home/pi/seav2/build/ball_tracker/install.log'\n"}
+[6.550530] (-) TimerEvent: {}
+[6.617407] (ball_tracker) CommandEnded: {'returncode': 0}
+[6.650650] (-) TimerEvent: {}
+[6.677072] (ball_tracker) JobEnded: {'identifier': 'ball_tracker', 'rc': 0}
+[6.681063] (-) EventReactorShutdown: {}

@@ -1,0 +1,576 @@
+[0.000000] (-) TimerEvent: {}
+[0.001468] (-) JobUnselected: {'identifier': 'carlikebot_ros2_control'}
+[0.001732] (-) JobUnselected: {'identifier': 'robot_cam_ros'}
+[0.002047] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.002226] (-) JobUnselected: {'identifier': 'seav2'}
+[0.002332] (-) JobUnselected: {'identifier': 'serial'}
+[0.002433] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.002546] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.074835] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.077290] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/seav2/src/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/v4l2_camera'], 'cwd': '/home/pi/seav2/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.105 33070 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/seav2/install/carlikebot_ros2_control/lib:/home/pi/seav2/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/seav2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('ROS_IP', '192.168.137.192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/your_username/.local/lib/python3.10/site-packages/cv2/qt/plugins'), ('COLCON_PREFIX_PATH', '/home/pi/seav2/install:/home/pi/ss25/install:/home/pi/ss25/src/description/description/install:/home/pi/ss25/src/summary/install:/home/pi/ss25/src/install:/home/pi/demo_testing_9_april/seav/install:/home/pi/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/pi/seav2/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.105 33070 192.168.0.210 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:/home/pi/ss25/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/install/vup_2k7/lib/python3.10/site-packages:/home/pi/ss25/install/summary/lib/python3.10/site-packages:/home/pi/ss25/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/install/project/lib/python3.10/site-packages:/home/pi/ss25/install/my_slam/lib/python3.10/site-packages:/home/pi/ss25/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/install/final/lib/python3.10/site-packages:/home/pi/ss25/install/description/lib/python3.10/site-packages:/home/pi/ss25/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/ss25/src/summary/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/src/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/src/install/project/lib/python3.10/site-packages:/home/pi/ss25/src/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/src/install/description/lib/python3.10/site-packages:/home/pi/ss25/src/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/install/summary/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/yolov8_ros/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.137.192'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.098006] (-) TimerEvent: {}
+[0.199342] (-) TimerEvent: {}
+[0.300089] (-) TimerEvent: {}
+[0.400884] (-) TimerEvent: {}
+[0.423369] (v4l2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501093] (-) TimerEvent: {}
+[0.601913] (-) TimerEvent: {}
+[0.702781] (-) TimerEvent: {}
+[0.734600] (v4l2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.773317] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802967] (-) TimerEvent: {}
+[0.903817] (-) TimerEvent: {}
+[1.004624] (-) TimerEvent: {}
+[1.105445] (-) TimerEvent: {}
+[1.150595] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.182093] (v4l2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.183026] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.184688] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.197536] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.205598] (-) TimerEvent: {}
+[1.306342] (-) TimerEvent: {}
+[1.407189] (-) TimerEvent: {}
+[1.508196] (-) TimerEvent: {}
+[1.609179] (-) TimerEvent: {}
+[1.620271] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.650418] (v4l2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.651557] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.653496] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.709369] (-) TimerEvent: {}
+[1.731214] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.809533] (-) TimerEvent: {}
+[1.910338] (-) TimerEvent: {}
+[2.011103] (-) TimerEvent: {}
+[2.111918] (-) TimerEvent: {}
+[2.212609] (-) TimerEvent: {}
+[2.313269] (-) TimerEvent: {}
+[2.413966] (-) TimerEvent: {}
+[2.514677] (-) TimerEvent: {}
+[2.615368] (-) TimerEvent: {}
+[2.716082] (-) TimerEvent: {}
+[2.816730] (-) TimerEvent: {}
+[2.917356] (-) TimerEvent: {}
+[2.957925] (v4l2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.017516] (-) TimerEvent: {}
+[3.118185] (-) TimerEvent: {}
+[3.218850] (-) TimerEvent: {}
+[3.319680] (-) TimerEvent: {}
+[3.420640] (-) TimerEvent: {}
+[3.521327] (-) TimerEvent: {}
+[3.622003] (-) TimerEvent: {}
+[3.722676] (-) TimerEvent: {}
+[3.823362] (-) TimerEvent: {}
+[3.924059] (-) TimerEvent: {}
+[4.024741] (-) TimerEvent: {}
+[4.125419] (-) TimerEvent: {}
+[4.226095] (-) TimerEvent: {}
+[4.326832] (-) TimerEvent: {}
+[4.358522] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.427022] (-) TimerEvent: {}
+[4.527715] (-) TimerEvent: {}
+[4.628399] (-) TimerEvent: {}
+[4.637373] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.728576] (-) TimerEvent: {}
+[4.829253] (-) TimerEvent: {}
+[4.929924] (-) TimerEvent: {}
+[5.030578] (-) TimerEvent: {}
+[5.131270] (-) TimerEvent: {}
+[5.232013] (-) TimerEvent: {}
+[5.332708] (-) TimerEvent: {}
+[5.433380] (-) TimerEvent: {}
+[5.534032] (-) TimerEvent: {}
+[5.560563] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.634199] (-) TimerEvent: {}
+[5.705628] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.734370] (-) TimerEvent: {}
+[5.835042] (-) TimerEvent: {}
+[5.866672] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.935222] (-) TimerEvent: {}
+[6.035921] (-) TimerEvent: {}
+[6.052133] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.136087] (-) TimerEvent: {}
+[6.236757] (-) TimerEvent: {}
+[6.317197] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.336900] (-) TimerEvent: {}
+[6.437558] (-) TimerEvent: {}
+[6.538231] (-) TimerEvent: {}
+[6.639134] (-) TimerEvent: {}
+[6.739898] (-) TimerEvent: {}
+[6.840611] (-) TimerEvent: {}
+[6.941288] (-) TimerEvent: {}
+[7.041951] (-) TimerEvent: {}
+[7.119178] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.142129] (-) TimerEvent: {}
+[7.197882] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.242309] (-) TimerEvent: {}
+[7.342979] (-) TimerEvent: {}
+[7.443687] (-) TimerEvent: {}
+[7.544362] (-) TimerEvent: {}
+[7.645034] (-) TimerEvent: {}
+[7.745716] (-) TimerEvent: {}
+[7.846392] (-) TimerEvent: {}
+[7.947084] (-) TimerEvent: {}
+[8.047895] (-) TimerEvent: {}
+[8.148785] (-) TimerEvent: {}
+[8.223208] (v4l2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.248942] (-) TimerEvent: {}
+[8.349623] (-) TimerEvent: {}
+[8.450297] (-) TimerEvent: {}
+[8.550990] (-) TimerEvent: {}
+[8.594620] (v4l2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.651158] (-) TimerEvent: {}
+[8.751861] (-) TimerEvent: {}
+[8.852542] (-) TimerEvent: {}
+[8.953240] (-) TimerEvent: {}
+[9.053932] (-) TimerEvent: {}
+[9.154672] (-) TimerEvent: {}
+[9.199415] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.254842] (-) TimerEvent: {}
+[9.355548] (-) TimerEvent: {}
+[9.423513] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.455734] (-) TimerEvent: {}
+[9.556500] (-) TimerEvent: {}
+[9.657364] (-) TimerEvent: {}
+[9.758213] (-) TimerEvent: {}
+[9.828907] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.830371] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.858378] (-) TimerEvent: {}
+[9.959143] (-) TimerEvent: {}
+[10.060080] (-) TimerEvent: {}
+[10.160960] (-) TimerEvent: {}
+[10.238223] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.244091] (v4l2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.261103] (-) TimerEvent: {}
+[10.361822] (-) TimerEvent: {}
+[10.462519] (-) TimerEvent: {}
+[10.563250] (-) TimerEvent: {}
+[10.663988] (-) TimerEvent: {}
+[10.764688] (-) TimerEvent: {}
+[10.785255] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[10.864871] (-) TimerEvent: {}
+[10.965584] (-) TimerEvent: {}
+[11.066275] (-) TimerEvent: {}
+[11.166946] (-) TimerEvent: {}
+[11.224356] (v4l2_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[11.267110] (-) TimerEvent: {}
+[11.367803] (-) TimerEvent: {}
+[11.468517] (-) TimerEvent: {}
+[11.569240] (-) TimerEvent: {}
+[11.670131] (-) TimerEvent: {}
+[11.770825] (-) TimerEvent: {}
+[11.788926] (v4l2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[11.871015] (-) TimerEvent: {}
+[11.963771] (v4l2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[11.971176] (-) TimerEvent: {}
+[12.071877] (-) TimerEvent: {}
+[12.172561] (-) TimerEvent: {}
+[12.273227] (-) TimerEvent: {}
+[12.373882] (-) TimerEvent: {}
+[12.474553] (-) TimerEvent: {}
+[12.525030] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.574707] (-) TimerEvent: {}
+[12.675364] (-) TimerEvent: {}
+[12.776052] (-) TimerEvent: {}
+[12.876833] (-) TimerEvent: {}
+[12.977906] (-) TimerEvent: {}
+[13.078585] (-) TimerEvent: {}
+[13.179265] (-) TimerEvent: {}
+[13.279988] (-) TimerEvent: {}
+[13.380667] (-) TimerEvent: {}
+[13.481349] (-) TimerEvent: {}
+[13.539861] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.540642] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi/seav2/src/ros2_v4l2_camera/include>\n'}
+[13.541166] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.581508] (-) TimerEvent: {}
+[13.590354] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.590940] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.614645] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.669171] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.669801] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.681667] (-) TimerEvent: {}
+[13.683675] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.718527] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.781879] (-) TimerEvent: {}
+[13.851805] (v4l2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[13.882065] (-) TimerEvent: {}
+[13.884919] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/seav2/build/v4l2_camera\n'}
+[13.933094] (v4l2_camera) CommandEnded: {'returncode': 0}
+[13.935148] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[13.940720] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/seav2/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/pi/seav2/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.105 33070 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/seav2/install/carlikebot_ros2_control/lib:/home/pi/seav2/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/seav2'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('ROS_IP', '192.168.137.192'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/your_username/.local/lib/python3.10/site-packages/cv2/qt/plugins'), ('COLCON_PREFIX_PATH', '/home/pi/seav2/install:/home/pi/ss25/install:/home/pi/ss25/src/description/description/install:/home/pi/ss25/src/summary/install:/home/pi/ss25/src/install:/home/pi/demo_testing_9_april/seav/install:/home/pi/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/pi/seav2/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.105 33070 192.168.0.210 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:/home/pi/ss25/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/install/vup_2k7/lib/python3.10/site-packages:/home/pi/ss25/install/summary/lib/python3.10/site-packages:/home/pi/ss25/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/install/project/lib/python3.10/site-packages:/home/pi/ss25/install/my_slam/lib/python3.10/site-packages:/home/pi/ss25/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/install/final/lib/python3.10/site-packages:/home/pi/ss25/install/description/lib/python3.10/site-packages:/home/pi/ss25/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/ss25/src/summary/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/wheel_odometry/lib/python3.10/site-packages:/home/pi/ss25/src/install/summary/lib/python3.10/site-packages:/home/pi/ss25/src/install/safety_control/lib/python3.10/site-packages:/home/pi/ss25/src/install/project/lib/python3.10/site-packages:/home/pi/ss25/src/install/my_motor_driver/lib/python3.10/site-packages:/home/pi/ss25/src/install/description/lib/python3.10/site-packages:/home/pi/ss25/src/install/bringup_pkg/lib/python3.10/site-packages:/home/pi/install/summary/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/yolov8_ros/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors/lib/python3.10/site-packages:/home/pi/demo_testing_9_april/seav/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.137.192'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/serial:/home/pi/seav2/install/seav2:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[13.982342] (-) TimerEvent: {}
+[14.083090] (-) TimerEvent: {}
+[14.183882] (-) TimerEvent: {}
+[14.216968] (v4l2_camera) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[14.219782] (v4l2_camera) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o\x1b[0m\n'}
+[14.226240] (v4l2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o\x1b[0m\n'}
+[14.284110] (-) TimerEvent: {}
+[14.385550] (-) TimerEvent: {}
+[14.487050] (-) TimerEvent: {}
+[14.588643] (-) TimerEvent: {}
+[14.690108] (-) TimerEvent: {}
+[14.791667] (-) TimerEvent: {}
+[14.893154] (-) TimerEvent: {}
+[14.994639] (-) TimerEvent: {}
+[15.096217] (-) TimerEvent: {}
+[15.197739] (-) TimerEvent: {}
+[15.299194] (-) TimerEvent: {}
+[15.400669] (-) TimerEvent: {}
+[15.502157] (-) TimerEvent: {}
+[15.603681] (-) TimerEvent: {}
+[15.705159] (-) TimerEvent: {}
+[15.806630] (-) TimerEvent: {}
+[15.908184] (-) TimerEvent: {}
+[16.009871] (-) TimerEvent: {}
+[16.112060] (-) TimerEvent: {}
+[16.213608] (-) TimerEvent: {}
+[16.315286] (-) TimerEvent: {}
+[16.417110] (-) TimerEvent: {}
+[16.490417] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/seav2/src/ros2_v4l2_camera/src/v4l2_camera.cpp:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcv_bridge/cv_bridge.hpp: No such file or directory\n'}
+[16.491752] (v4l2_camera) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K<cv_bridge/cv_bridge.hpp>\x1b[m\x1b[K\n'}
+[16.492904] (v4l2_camera) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.493809] (v4l2_camera) StderrLine: {'line': b'compilation terminated.\n'}
+[16.508385] (v4l2_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:90: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1\n'}
+[16.509107] (v4l2_camera) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[16.517287] (-) TimerEvent: {}
+[16.618248] (-) TimerEvent: {}
+[16.719287] (-) TimerEvent: {}
+[16.820249] (-) TimerEvent: {}
+[16.921161] (-) TimerEvent: {}
+[17.022111] (-) TimerEvent: {}
+[17.122991] (-) TimerEvent: {}
+[17.223881] (-) TimerEvent: {}
+[17.324680] (-) TimerEvent: {}
+[17.425526] (-) TimerEvent: {}
+[17.526401] (-) TimerEvent: {}
+[17.627306] (-) TimerEvent: {}
+[17.728260] (-) TimerEvent: {}
+[17.829251] (-) TimerEvent: {}
+[17.930323] (-) TimerEvent: {}
+[18.031322] (-) TimerEvent: {}
+[18.132309] (-) TimerEvent: {}
+[18.233243] (-) TimerEvent: {}
+[18.334323] (-) TimerEvent: {}
+[18.435319] (-) TimerEvent: {}
+[18.536540] (-) TimerEvent: {}
+[18.637486] (-) TimerEvent: {}
+[18.738690] (-) TimerEvent: {}
+[18.839782] (-) TimerEvent: {}
+[18.940710] (-) TimerEvent: {}
+[19.041644] (-) TimerEvent: {}
+[19.142467] (-) TimerEvent: {}
+[19.243379] (-) TimerEvent: {}
+[19.344396] (-) TimerEvent: {}
+[19.445245] (-) TimerEvent: {}
+[19.546204] (-) TimerEvent: {}
+[19.647069] (-) TimerEvent: {}
+[19.747971] (-) TimerEvent: {}
+[19.848787] (-) TimerEvent: {}
+[19.949665] (-) TimerEvent: {}
+[20.050497] (-) TimerEvent: {}
+[20.151397] (-) TimerEvent: {}
+[20.252453] (-) TimerEvent: {}
+[20.353370] (-) TimerEvent: {}
+[20.454331] (-) TimerEvent: {}
+[20.555211] (-) TimerEvent: {}
+[20.656101] (-) TimerEvent: {}
+[20.756935] (-) TimerEvent: {}
+[20.857763] (-) TimerEvent: {}
+[20.958601] (-) TimerEvent: {}
+[21.059497] (-) TimerEvent: {}
+[21.160461] (-) TimerEvent: {}
+[21.261289] (-) TimerEvent: {}
+[21.362114] (-) TimerEvent: {}
+[21.462944] (-) TimerEvent: {}
+[21.563816] (-) TimerEvent: {}
+[21.664809] (-) TimerEvent: {}
+[21.765967] (-) TimerEvent: {}
+[21.866980] (-) TimerEvent: {}
+[21.967966] (-) TimerEvent: {}
+[22.068919] (-) TimerEvent: {}
+[22.169909] (-) TimerEvent: {}
+[22.270840] (-) TimerEvent: {}
+[22.371763] (-) TimerEvent: {}
+[22.472707] (-) TimerEvent: {}
+[22.573647] (-) TimerEvent: {}
+[22.674642] (-) TimerEvent: {}
+[22.775595] (-) TimerEvent: {}
+[22.876524] (-) TimerEvent: {}
+[22.977485] (-) TimerEvent: {}
+[23.078409] (-) TimerEvent: {}
+[23.179367] (-) TimerEvent: {}
+[23.280289] (-) TimerEvent: {}
+[23.381374] (-) TimerEvent: {}
+[23.482365] (-) TimerEvent: {}
+[23.583318] (-) TimerEvent: {}
+[23.684235] (-) TimerEvent: {}
+[23.785179] (-) TimerEvent: {}
+[23.886145] (-) TimerEvent: {}
+[23.987091] (-) TimerEvent: {}
+[24.088059] (-) TimerEvent: {}
+[24.189011] (-) TimerEvent: {}
+[24.289950] (-) TimerEvent: {}
+[24.390906] (-) TimerEvent: {}
+[24.491927] (-) TimerEvent: {}
+[24.592874] (-) TimerEvent: {}
+[24.693831] (-) TimerEvent: {}
+[24.794828] (-) TimerEvent: {}
+[24.895853] (-) TimerEvent: {}
+[24.996806] (-) TimerEvent: {}
+[25.097790] (-) TimerEvent: {}
+[25.198798] (-) TimerEvent: {}
+[25.299756] (-) TimerEvent: {}
+[25.400743] (-) TimerEvent: {}
+[25.501837] (-) TimerEvent: {}
+[25.602906] (-) TimerEvent: {}
+[25.703927] (-) TimerEvent: {}
+[25.804918] (-) TimerEvent: {}
+[25.905948] (-) TimerEvent: {}
+[26.007012] (-) TimerEvent: {}
+[26.108030] (-) TimerEvent: {}
+[26.208985] (-) TimerEvent: {}
+[26.309980] (-) TimerEvent: {}
+[26.410981] (-) TimerEvent: {}
+[26.511993] (-) TimerEvent: {}
+[26.612953] (-) TimerEvent: {}
+[26.713894] (-) TimerEvent: {}
+[26.814902] (-) TimerEvent: {}
+[26.915863] (-) TimerEvent: {}
+[27.016864] (-) TimerEvent: {}
+[27.117846] (-) TimerEvent: {}
+[27.218810] (-) TimerEvent: {}
+[27.319744] (-) TimerEvent: {}
+[27.420684] (-) TimerEvent: {}
+[27.521636] (-) TimerEvent: {}
+[27.622640] (-) TimerEvent: {}
+[27.723644] (-) TimerEvent: {}
+[27.824594] (-) TimerEvent: {}
+[27.925536] (-) TimerEvent: {}
+[28.026471] (-) TimerEvent: {}
+[28.127449] (-) TimerEvent: {}
+[28.228537] (-) TimerEvent: {}
+[28.329481] (-) TimerEvent: {}
+[28.430472] (-) TimerEvent: {}
+[28.531306] (-) TimerEvent: {}
+[28.632196] (-) TimerEvent: {}
+[28.733009] (-) TimerEvent: {}
+[28.833837] (-) TimerEvent: {}
+[28.934741] (-) TimerEvent: {}
+[29.035728] (-) TimerEvent: {}
+[29.136549] (-) TimerEvent: {}
+[29.237387] (-) TimerEvent: {}
+[29.338239] (-) TimerEvent: {}
+[29.439084] (-) TimerEvent: {}
+[29.539945] (-) TimerEvent: {}
+[29.640814] (-) TimerEvent: {}
+[29.741665] (-) TimerEvent: {}
+[29.842510] (-) TimerEvent: {}
+[29.943556] (-) TimerEvent: {}
+[30.044696] (-) TimerEvent: {}
+[30.145571] (-) TimerEvent: {}
+[30.246429] (-) TimerEvent: {}
+[30.347249] (-) TimerEvent: {}
+[30.448101] (-) TimerEvent: {}
+[30.548938] (-) TimerEvent: {}
+[30.649740] (-) TimerEvent: {}
+[30.750583] (-) TimerEvent: {}
+[30.851431] (-) TimerEvent: {}
+[30.952327] (-) TimerEvent: {}
+[31.053221] (-) TimerEvent: {}
+[31.154163] (-) TimerEvent: {}
+[31.255526] (-) TimerEvent: {}
+[31.356552] (-) TimerEvent: {}
+[31.457620] (-) TimerEvent: {}
+[31.558420] (-) TimerEvent: {}
+[31.659244] (-) TimerEvent: {}
+[31.760131] (-) TimerEvent: {}
+[31.860922] (-) TimerEvent: {}
+[31.961677] (-) TimerEvent: {}
+[32.062431] (-) TimerEvent: {}
+[32.163344] (-) TimerEvent: {}
+[32.264146] (-) TimerEvent: {}
+[32.364949] (-) TimerEvent: {}
+[32.465755] (-) TimerEvent: {}
+[32.566530] (-) TimerEvent: {}
+[32.667257] (-) TimerEvent: {}
+[32.768058] (-) TimerEvent: {}
+[32.868788] (-) TimerEvent: {}
+[32.969542] (-) TimerEvent: {}
+[33.070322] (-) TimerEvent: {}
+[33.171068] (-) TimerEvent: {}
+[33.271827] (-) TimerEvent: {}
+[33.372508] (-) TimerEvent: {}
+[33.473199] (-) TimerEvent: {}
+[33.573917] (-) TimerEvent: {}
+[33.674735] (-) TimerEvent: {}
+[33.775754] (-) TimerEvent: {}
+[33.876493] (-) TimerEvent: {}
+[33.977313] (-) TimerEvent: {}
+[34.078112] (-) TimerEvent: {}
+[34.178860] (-) TimerEvent: {}
+[34.279663] (-) TimerEvent: {}
+[34.380422] (-) TimerEvent: {}
+[34.481250] (-) TimerEvent: {}
+[34.582092] (-) TimerEvent: {}
+[34.682943] (-) TimerEvent: {}
+[34.783738] (-) TimerEvent: {}
+[34.884504] (-) TimerEvent: {}
+[34.985268] (-) TimerEvent: {}
+[35.086036] (-) TimerEvent: {}
+[35.186794] (-) TimerEvent: {}
+[35.287670] (-) TimerEvent: {}
+[35.388561] (-) TimerEvent: {}
+[35.489323] (-) TimerEvent: {}
+[35.590098] (-) TimerEvent: {}
+[35.690911] (-) TimerEvent: {}
+[35.791761] (-) TimerEvent: {}
+[35.892503] (-) TimerEvent: {}
+[35.993230] (-) TimerEvent: {}
+[36.094004] (-) TimerEvent: {}
+[36.194897] (-) TimerEvent: {}
+[36.295851] (-) TimerEvent: {}
+[36.397264] (-) TimerEvent: {}
+[36.498256] (-) TimerEvent: {}
+[36.599171] (-) TimerEvent: {}
+[36.699926] (-) TimerEvent: {}
+[36.800656] (-) TimerEvent: {}
+[36.901484] (-) TimerEvent: {}
+[37.002288] (-) TimerEvent: {}
+[37.103082] (-) TimerEvent: {}
+[37.203917] (-) TimerEvent: {}
+[37.304601] (-) TimerEvent: {}
+[37.405339] (-) TimerEvent: {}
+[37.506115] (-) TimerEvent: {}
+[37.606881] (-) TimerEvent: {}
+[37.707676] (-) TimerEvent: {}
+[37.808799] (-) TimerEvent: {}
+[37.909523] (-) TimerEvent: {}
+[38.010284] (-) TimerEvent: {}
+[38.111029] (-) TimerEvent: {}
+[38.211895] (-) TimerEvent: {}
+[38.312658] (-) TimerEvent: {}
+[38.413379] (-) TimerEvent: {}
+[38.514142] (-) TimerEvent: {}
+[38.614890] (-) TimerEvent: {}
+[38.715678] (-) TimerEvent: {}
+[38.816407] (-) TimerEvent: {}
+[38.917097] (-) TimerEvent: {}
+[39.017805] (-) TimerEvent: {}
+[39.118522] (-) TimerEvent: {}
+[39.219285] (-) TimerEvent: {}
+[39.320071] (-) TimerEvent: {}
+[39.420828] (-) TimerEvent: {}
+[39.521549] (-) TimerEvent: {}
+[39.622295] (-) TimerEvent: {}
+[39.723051] (-) TimerEvent: {}
+[39.823780] (-) TimerEvent: {}
+[39.924504] (-) TimerEvent: {}
+[40.025238] (-) TimerEvent: {}
+[40.125990] (-) TimerEvent: {}
+[40.226728] (-) TimerEvent: {}
+[40.327458] (-) TimerEvent: {}
+[40.428235] (-) TimerEvent: {}
+[40.528985] (-) TimerEvent: {}
+[40.629726] (-) TimerEvent: {}
+[40.730486] (-) TimerEvent: {}
+[40.831182] (-) TimerEvent: {}
+[40.931952] (-) TimerEvent: {}
+[41.032691] (-) TimerEvent: {}
+[41.133412] (-) TimerEvent: {}
+[41.234167] (-) TimerEvent: {}
+[41.334943] (-) TimerEvent: {}
+[41.435722] (-) TimerEvent: {}
+[41.536537] (-) TimerEvent: {}
+[41.637236] (-) TimerEvent: {}
+[41.738036] (-) TimerEvent: {}
+[41.838936] (-) TimerEvent: {}
+[41.939715] (-) TimerEvent: {}
+[42.040428] (-) TimerEvent: {}
+[42.141148] (-) TimerEvent: {}
+[42.241872] (-) TimerEvent: {}
+[42.342619] (-) TimerEvent: {}
+[42.443357] (-) TimerEvent: {}
+[42.544160] (-) TimerEvent: {}
+[42.644889] (-) TimerEvent: {}
+[42.745635] (-) TimerEvent: {}
+[42.846395] (-) TimerEvent: {}
+[42.947113] (-) TimerEvent: {}
+[43.047899] (-) TimerEvent: {}
+[43.148611] (-) TimerEvent: {}
+[43.249324] (-) TimerEvent: {}
+[43.350056] (-) TimerEvent: {}
+[43.450783] (-) TimerEvent: {}
+[43.551551] (-) TimerEvent: {}
+[43.652324] (-) TimerEvent: {}
+[43.753032] (-) TimerEvent: {}
+[43.853793] (-) TimerEvent: {}
+[43.954544] (-) TimerEvent: {}
+[44.055307] (-) TimerEvent: {}
+[44.156113] (-) TimerEvent: {}
+[44.256853] (-) TimerEvent: {}
+[44.357576] (-) TimerEvent: {}
+[44.458349] (-) TimerEvent: {}
+[44.559090] (-) TimerEvent: {}
+[44.659852] (-) TimerEvent: {}
+[44.760563] (-) TimerEvent: {}
+[44.861313] (-) TimerEvent: {}
+[44.962050] (-) TimerEvent: {}
+[45.062807] (-) TimerEvent: {}
+[45.163619] (-) TimerEvent: {}
+[45.264383] (-) TimerEvent: {}
+[45.365169] (-) TimerEvent: {}
+[45.465921] (-) TimerEvent: {}
+[45.566663] (-) TimerEvent: {}
+[45.667392] (-) TimerEvent: {}
+[45.768174] (-) TimerEvent: {}
+[45.868906] (-) TimerEvent: {}
+[45.969660] (-) TimerEvent: {}
+[46.070422] (-) TimerEvent: {}
+[46.171137] (-) TimerEvent: {}
+[46.271865] (-) TimerEvent: {}
+[46.372558] (-) TimerEvent: {}
+[46.473292] (-) TimerEvent: {}
+[46.574081] (-) TimerEvent: {}
+[46.674788] (-) TimerEvent: {}
+[46.775703] (-) TimerEvent: {}
+[46.876439] (-) TimerEvent: {}
+[46.977159] (-) TimerEvent: {}
+[47.077892] (-) TimerEvent: {}
+[47.178644] (-) TimerEvent: {}
+[47.279386] (-) TimerEvent: {}
+[47.380135] (-) TimerEvent: {}
+[47.480975] (-) TimerEvent: {}
+[47.581900] (-) TimerEvent: {}
+[47.682695] (-) TimerEvent: {}
+[47.783629] (-) TimerEvent: {}
+[47.884385] (-) TimerEvent: {}
+[47.985124] (-) TimerEvent: {}
+[48.085870] (-) TimerEvent: {}
+[48.186610] (-) TimerEvent: {}
+[48.287382] (-) TimerEvent: {}
+[48.388157] (-) TimerEvent: {}
+[48.488896] (-) TimerEvent: {}
+[48.589643] (-) TimerEvent: {}
+[48.690383] (-) TimerEvent: {}
+[48.791140] (-) TimerEvent: {}
+[48.891895] (-) TimerEvent: {}
+[48.992633] (-) TimerEvent: {}
+[49.093350] (-) TimerEvent: {}
+[49.194066] (-) TimerEvent: {}
+[49.294805] (-) TimerEvent: {}
+[49.395592] (-) TimerEvent: {}
+[49.496351] (-) TimerEvent: {}
+[49.597086] (-) TimerEvent: {}
+[49.697808] (-) TimerEvent: {}
+[49.798726] (-) TimerEvent: {}
+[49.900526] (-) TimerEvent: {}
+[50.001620] (-) TimerEvent: {}
+[50.102406] (-) TimerEvent: {}
+[50.203292] (-) TimerEvent: {}
+[50.304247] (-) TimerEvent: {}
+[50.405017] (-) TimerEvent: {}
+[50.505883] (-) TimerEvent: {}
+[50.524384] (v4l2_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2\n'}
+[50.525335] (v4l2_camera) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[50.532963] (v4l2_camera) CommandEnded: {'returncode': 2}
+[50.578202] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 2}
+[50.589967] (-) EventReactorShutdown: {}

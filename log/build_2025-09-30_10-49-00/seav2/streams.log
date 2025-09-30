@@ -1,0 +1,54 @@
+[0.368s] Invoking command in '/home/pi/seav2/build/seav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/seav2 -- -j4 -l4
+[5.162s] Invoked command in '/home/pi/seav2/build/seav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/seav2 -- -j4 -l4
+[5.207s] Invoking command in '/home/pi/seav2/build/seav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/seav2
+[5.317s] -- Install configuration: ""
+[5.323s] -- Execute custom install script
+[5.332s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/drive_car.rviz
+[5.334s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/ekf_odom.yaml
+[5.337s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/gaz_ros2_ctl_use_sim.yaml
+[5.340s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/gazebo_params.yaml
+[5.343s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/imu_filter_madgwick.yaml
+[5.351s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/joystick.yaml
+[5.359s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/main.rviz
+[5.367s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/mapper_params_online_async.yaml
+[5.373s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/my_controllers.yaml
+[5.374s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/nav2_params.yaml
+[5.381s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/twist_mux.yaml
+[5.385s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/config/view_car.rviz
+[5.392s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/camera.xacro
+[5.395s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/depth_camera.xacro
+[5.405s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/gazebo_control.xacro
+[5.406s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/inertial_macros.xacro
+[5.408s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/lidar.xacro
+[5.409s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/robot.urdf.xacro
+[5.410s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/robot_core.xacro
+[5.420s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/description/ros2_control.xacro
+[5.421s] -- Symlinking: /home/pi/seav2/install/seav2/share/seav2/launch/__pycache__/launch_robot.launch.cpython-310.pyc
+[5.545s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/ekf.launch.py
+[5.549s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/imu_tf.launch.py
+[5.554s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/joystick.launch.py
+[5.558s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/launch_robot.launch.py
+[5.567s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/launch_sim.launch.py
+[5.571s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/localization_launch.py
+[5.575s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/navigation_launch.py
+[5.576s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/online_async_launch.py
+[5.591s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/rplidar.launch.py
+[5.592s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/launch/rsp.launch.py
+[5.597s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/worlds/empty.world
+[5.611s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/worlds/obstacles.world
+[5.612s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/ament_index/resource_index/package_run_dependencies/seav2
+[5.613s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/ament_index/resource_index/parent_prefix_path/seav2
+[5.614s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/environment/ament_prefix_path.sh
+[5.622s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/environment/ament_prefix_path.dsv
+[5.623s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/environment/path.sh
+[5.624s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/environment/path.dsv
+[5.625s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/local_setup.bash
+[5.626s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/local_setup.sh
+[5.627s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/local_setup.zsh
+[5.629s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/local_setup.dsv
+[5.630s] -- Symlinking: /home/pi/seav2/install/seav2/share/seav2/package.dsv
+[5.704s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/ament_index/resource_index/packages/seav2
+[5.706s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/cmake/seav2Config.cmake
+[5.709s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/cmake/seav2Config-version.cmake
+[5.711s] -- Up-to-date symlink: /home/pi/seav2/install/seav2/share/seav2/package.xml
+[5.729s] Invoked command in '/home/pi/seav2/build/seav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/seav2
