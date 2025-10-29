@@ -1,0 +1,21 @@
+[15.262s] Invoking command in '/home/pi/seav2/src/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data
+[19.888s] running egg_info
+[19.896s] writing ../../build/robot_cam_ros/robot_cam_ros.egg-info/PKG-INFO
+[19.903s] writing dependency_links to ../../build/robot_cam_ros/robot_cam_ros.egg-info/dependency_links.txt
+[19.904s] writing entry points to ../../build/robot_cam_ros/robot_cam_ros.egg-info/entry_points.txt
+[19.906s] writing requirements to ../../build/robot_cam_ros/robot_cam_ros.egg-info/requires.txt
+[19.907s] writing top-level names to ../../build/robot_cam_ros/robot_cam_ros.egg-info/top_level.txt
+[19.928s] reading manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[19.941s] writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[19.944s] running build
+[19.946s] running build_py
+[19.954s] running install
+[19.988s] running install_lib
+[19.990s] running install_data
+[20.017s] running install_egg_info
+[20.019s] removing '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info' (and everything under it)
+[20.021s] Copying ../../build/robot_cam_ros/robot_cam_ros.egg-info to /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info
+[20.044s] running install_scripts
+[20.343s] Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+[20.347s] writing list of installed files to '/home/pi/seav2/build/robot_cam_ros/install.log'
+[20.579s] Invoked command in '/home/pi/seav2/src/robot_cam_ros' returned '0': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data

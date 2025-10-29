@@ -1,0 +1,83 @@
+[0.248s] Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/ros2_control_demo_description
+[2.483s] -- The C compiler identification is GNU 11.4.0
+[2.483s] -- The CXX compiler identification is GNU 11.4.0
+[2.484s] -- Detecting C compiler ABI info
+[2.484s] -- Detecting C compiler ABI info - done
+[2.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.485s] -- Detecting C compile features
+[2.486s] -- Detecting C compile features - done
+[2.486s] -- Detecting CXX compiler ABI info
+[2.487s] -- Detecting CXX compiler ABI info - done
+[2.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.491s] -- Detecting CXX compile features
+[2.492s] -- Detecting CXX compile features - done
+[2.493s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.853s] -- Configuring done
+[5.885s] -- Generating done
+[5.899s] -- Build files have been written to: /home/pi/seav2/build/ros2_control_demo_description
+[5.941s] Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/ros2_control_demo_description
+[5.943s] Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/ros2_control_demo_description -- -j4 -l4
+[6.171s] Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/ros2_control_demo_description -- -j4 -l4
+[6.240s] Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/ros2_control_demo_description
+[6.293s] -- Install configuration: ""
+[6.293s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf
+[6.296s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[6.298s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[6.300s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz
+[6.301s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[6.303s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf
+[6.304s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[6.307s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[6.308s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz
+[6.309s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[6.311s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[6.314s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf
+[6.315s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[6.317s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[6.319s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz
+[6.320s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[6.322s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[6.324s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf
+[6.326s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro
+[6.328s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes
+[6.329s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual
+[6.330s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[6.384s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[6.396s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[6.406s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[6.414s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[6.421s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[6.430s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[6.451s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision
+[6.454s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[6.461s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[6.469s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[6.479s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[6.486s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[6.501s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[6.519s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[6.527s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf
+[6.528s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[6.529s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf
+[6.530s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[6.532s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc
+[6.533s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[6.535s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz
+[6.536s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[6.538s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[6.541s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[6.543s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[6.545s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[6.547s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[6.548s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[6.550s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[6.552s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[6.554s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[6.557s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[6.558s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[6.560s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[6.563s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[6.564s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[6.566s] -- Installing: /home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[6.579s] Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/ros2_control_demo_description

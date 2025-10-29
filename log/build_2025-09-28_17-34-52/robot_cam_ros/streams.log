@@ -1,0 +1,20 @@
+[6.915s] Invoking command in '/home/pi/seav2/src/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data
+[8.778s] running egg_info
+[8.781s] writing ../../build/robot_cam_ros/robot_cam_ros.egg-info/PKG-INFO
+[8.784s] writing dependency_links to ../../build/robot_cam_ros/robot_cam_ros.egg-info/dependency_links.txt
+[8.785s] writing entry points to ../../build/robot_cam_ros/robot_cam_ros.egg-info/entry_points.txt
+[8.786s] writing requirements to ../../build/robot_cam_ros/robot_cam_ros.egg-info/requires.txt
+[8.787s] writing top-level names to ../../build/robot_cam_ros/robot_cam_ros.egg-info/top_level.txt
+[8.800s] reading manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[8.805s] writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[8.806s] running build
+[8.807s] running build_py
+[8.810s] running install
+[8.812s] running install_lib
+[8.822s] running install_data
+[8.825s] running install_egg_info
+[8.835s] removing '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info' (and everything under it)
+[8.837s] Copying ../../build/robot_cam_ros/robot_cam_ros.egg-info to /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info
+[8.846s] running install_scripts
+[8.958s] Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+[8.963s] writing list of installed files to '/home/pi/seav2/build/robot_cam_ros/install.log'

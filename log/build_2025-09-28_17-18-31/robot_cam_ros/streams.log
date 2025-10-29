@@ -1,0 +1,20 @@
+[7.490s] Invoking command in '/home/pi/seav2/src/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data
+[9.866s] running egg_info
+[9.870s] writing ../../build/robot_cam_ros/robot_cam_ros.egg-info/PKG-INFO
+[9.877s] writing dependency_links to ../../build/robot_cam_ros/robot_cam_ros.egg-info/dependency_links.txt
+[9.877s] writing entry points to ../../build/robot_cam_ros/robot_cam_ros.egg-info/entry_points.txt
+[9.878s] writing requirements to ../../build/robot_cam_ros/robot_cam_ros.egg-info/requires.txt
+[9.879s] writing top-level names to ../../build/robot_cam_ros/robot_cam_ros.egg-info/top_level.txt
+[9.887s] reading manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[9.893s] writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[9.894s] running build
+[9.895s] running build_py
+[9.898s] running install
+[9.898s] running install_lib
+[9.908s] running install_data
+[9.909s] running install_egg_info
+[9.920s] removing '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info' (and everything under it)
+[9.922s] Copying ../../build/robot_cam_ros/robot_cam_ros.egg-info to /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info
+[9.933s] running install_scripts
+[10.058s] Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+[10.060s] writing list of installed files to '/home/pi/seav2/build/robot_cam_ros/install.log'

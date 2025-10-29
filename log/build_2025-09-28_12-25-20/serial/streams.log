@@ -1,0 +1,53 @@
+[0.214s] Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/serial
+[2.457s] -- The C compiler identification is GNU 11.4.0
+[2.457s] -- The CXX compiler identification is GNU 11.4.0
+[2.458s] -- Detecting C compiler ABI info
+[2.460s] -- Detecting C compiler ABI info - done
+[2.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.462s] -- Detecting C compile features
+[2.463s] -- Detecting C compile features - done
+[2.463s] -- Detecting CXX compiler ABI info
+[2.464s] -- Detecting CXX compiler ABI info - done
+[2.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.465s] -- Detecting CXX compile features
+[2.465s] -- Detecting CXX compile features - done
+[2.467s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.338s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.570s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[5.672s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.682s] -- Looking for pthread.h
+[6.217s] -- Looking for pthread.h - found
+[6.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.779s] -- Found Threads: TRUE  
+[7.305s] -- Configuring done
+[7.386s] -- Generating done
+[7.411s] -- Build files have been written to: /home/pi/seav2/build/serial
+[7.446s] Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/serial
+[7.448s] Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/serial -- -j4 -l4
+[7.792s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.800s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.830s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[7.855s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[11.828s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[16.239s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[16.486s] [ 42%] Built target serial
+[16.618s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[16.934s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.121s] [ 57%] Built target gtest_main
+[18.498s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[18.908s] [ 64%] Built target serial_example
+[27.103s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[27.450s] [ 71%] Built target gtest
+[27.561s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[27.564s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[33.962s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[33.963s]                  from [01m[K/home/pi/seav2/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[33.963s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[33.964s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[33.964s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[34.069s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[34.741s] [ 92%] Built target serial-test-timer
+[35.040s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[35.692s] [100%] Built target serial-test

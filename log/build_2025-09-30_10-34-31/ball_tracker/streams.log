@@ -1,0 +1,46 @@
+[20.298s] Invoking command in '/home/pi/seav2/build/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/ball_tracker/build
+[25.782s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[25.783s]   warnings.warn(
+[26.163s] running develop
+[29.781s] Removing /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[30.102s] Invoked command in '/home/pi/seav2/build/ball_tracker' returned '0': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/ball_tracker/build
+[30.127s] Invoking command in '/home/pi/seav2/src/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/pi/seav2/build/ball_tracker/build install --record /home/pi/seav2/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force
+[39.289s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[39.294s]   warnings.warn(
+[39.514s] running egg_info
+[39.540s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[39.549s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[39.567s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[39.574s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[39.583s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[39.664s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[39.718s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[39.736s] running build
+[39.741s] running build_py
+[39.768s] running install
+[39.777s] running install_lib
+[39.795s] creating /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.802s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.815s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.829s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.830s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.837s] copying /home/pi/seav2/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[39.923s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[39.951s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[40.012s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[40.037s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[40.084s] byte-compiling /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[40.118s] running install_data
+[40.122s] copying resource/ball_tracker -> /home/pi/seav2/install/ball_tracker/share/ament_index/resource_index/packages
+[40.138s] copying package.xml -> /home/pi/seav2/install/ball_tracker/share/ball_tracker
+[40.151s] copying launch/ball_tracker.launch.py -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/launch
+[40.186s] copying launch/example_launch_include.launch.py -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/launch
+[40.189s] copying config/ball_tracker_params_example.yaml -> /home/pi/seav2/install/ball_tracker/share/ball_tracker/config
+[40.197s] running install_egg_info
+[40.249s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[40.299s] running install_scripts
+[40.865s] Installing detect_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[40.867s] Installing detect_ball_3d script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[40.869s] Installing follow_ball script to /home/pi/seav2/install/ball_tracker/lib/ball_tracker
+[40.875s] writing list of installed files to '/home/pi/seav2/build/ball_tracker/install.log'
+[41.131s] Invoked command in '/home/pi/seav2/src/ball_tracker' returned '0': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/pi/seav2/build/ball_tracker/build install --record /home/pi/seav2/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force

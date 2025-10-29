@@ -1,0 +1,20 @@
+[8.082s] Invoking command in '/home/pi/seav2/src/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data
+[10.472s] running egg_info
+[10.477s] writing ../../build/robot_cam_ros/robot_cam_ros.egg-info/PKG-INFO
+[10.478s] writing dependency_links to ../../build/robot_cam_ros/robot_cam_ros.egg-info/dependency_links.txt
+[10.480s] writing entry points to ../../build/robot_cam_ros/robot_cam_ros.egg-info/entry_points.txt
+[10.481s] writing requirements to ../../build/robot_cam_ros/robot_cam_ros.egg-info/requires.txt
+[10.482s] writing top-level names to ../../build/robot_cam_ros/robot_cam_ros.egg-info/top_level.txt
+[10.493s] reading manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[10.498s] writing manifest file '../../build/robot_cam_ros/robot_cam_ros.egg-info/SOURCES.txt'
+[10.499s] running build
+[10.500s] running build_py
+[10.501s] running install
+[10.503s] running install_lib
+[10.512s] running install_data
+[10.513s] running install_egg_info
+[10.524s] removing '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info' (and everything under it)
+[10.526s] Copying ../../build/robot_cam_ros/robot_cam_ros.egg-info to /home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages/robot_cam_ros-0.1.0-py3.10.egg-info
+[10.538s] running install_scripts
+[10.669s] Installing follow_cam script to /home/pi/seav2/install/robot_cam_ros/lib/robot_cam_ros
+[10.671s] writing list of installed files to '/home/pi/seav2/build/robot_cam_ros/install.log'

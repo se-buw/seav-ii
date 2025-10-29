@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating seav2_imu.egg-info
+writing seav2_imu.egg-info/PKG-INFO
+writing dependency_links to seav2_imu.egg-info/dependency_links.txt
+writing entry points to seav2_imu.egg-info/entry_points.txt
+writing requirements to seav2_imu.egg-info/requires.txt
+writing top-level names to seav2_imu.egg-info/top_level.txt
+writing manifest file 'seav2_imu.egg-info/SOURCES.txt'
+reading manifest file 'seav2_imu.egg-info/SOURCES.txt'
+writing manifest file 'seav2_imu.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages/seav2-imu.egg-link (link to .)
+Installing mpu6050_node script to /home/pi/seav2/install/seav2_imu/lib/seav2_imu
+
+Installed /home/pi/seav2/build/seav2_imu
+running symlink_data
+creating /home/pi/seav2/install/seav2_imu/share/ament_index
+creating /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index
+creating /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index/packages
+symbolically linking /home/pi/seav2/build/seav2_imu/resource/seav2_imu -> /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index/packages
+symbolically linking /home/pi/seav2/build/seav2_imu/package.xml -> /home/pi/seav2/install/seav2_imu/share/seav2_imu

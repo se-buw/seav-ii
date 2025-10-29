@@ -1,0 +1,261 @@
+[1.406s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'seav2_imu', '--symlink-install']
+[1.407s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['seav2_imu'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffac6414e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac7de950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac7de950>>)
+[4.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.084s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/seav2'
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.088s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.088s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore'
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore_ament_install'
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_pkg']
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_pkg'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_meta']
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_meta'
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ros']
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ros'
+[4.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[4.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ignore'
+[4.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ignore_ament_install'
+[4.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['colcon_pkg']
+[4.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'colcon_pkg'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['colcon_meta']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'colcon_meta'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['ros']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ros'
+[4.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_cam_ros' with type 'ros.ament_python' and name 'robot_cam_ros'
+[4.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[4.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[4.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[4.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[4.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[4.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[4.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[4.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[4.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[4.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['ignore', 'ignore_ament_install']
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ignore'
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ignore_ament_install'
+[4.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['colcon_pkg']
+[4.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'colcon_pkg'
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['colcon_meta']
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'colcon_meta'
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['ros']
+[4.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ros'
+[4.300s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/seav-ii': Error(s) in package 'src/seav-ii/package.xml':
+The manifest contains invalid XML:
+junk after document element: line 21, column 0
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['cmake', 'python']
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'cmake'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'python'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['python_setup_py']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'python_setup_py'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) by extensions ['ignore', 'ignore_ament_install']
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) by extension 'ignore'
+[4.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) ignored
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ignore'
+[4.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ignore_ament_install'
+[4.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['colcon_pkg']
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'colcon_pkg'
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['colcon_meta']
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'colcon_meta'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['ros']
+[4.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ros'
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['cmake', 'python']
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'cmake'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'python'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['python_setup_py']
+[4.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'python_setup_py'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ignore'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ignore_ament_install'
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['colcon_pkg']
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'colcon_pkg'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['colcon_meta']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'colcon_meta'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['ros']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ros'
+[4.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control' with type 'ros.ament_cmake' and name 'carlikebot_ros2_control'
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ignore'
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ignore_ament_install'
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['colcon_pkg']
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'colcon_pkg'
+[4.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['colcon_meta']
+[4.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'colcon_meta'
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['ros']
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ros'
+[4.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) by extensions ['ignore', 'ignore_ament_install']
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) by extension 'ignore'
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) ignored
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) by extensions ['ignore', 'ignore_ament_install']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) by extension 'ignore'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) ignored
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[4.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) by extension 'ignore'
+[4.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) ignored
+[4.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['ignore', 'ignore_ament_install']
+[4.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ignore'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ignore_ament_install'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['colcon_pkg']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'colcon_pkg'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['colcon_meta']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'colcon_meta'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['ros']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ros'
+[4.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/seav2' with type 'ros.ament_cmake' and name 'seav2'
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['ignore', 'ignore_ament_install']
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ignore'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ignore_ament_install'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['colcon_pkg']
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'colcon_pkg'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['colcon_meta']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'colcon_meta'
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['ros']
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ros'
+[4.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav2_imu' with type 'ros.ament_python' and name 'seav2_imu'
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[4.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[4.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[4.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[4.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[4.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.716s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ball_tracker' in 'src/ball_tracker'
+[4.717s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_cam_ros' in 'src/robot_cam_ros'
+[4.717s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_control_demo_description' in 'src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description'
+[4.717s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'seav2' in 'src/seav-ii/seav2'
+[4.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'src/serial'
+[4.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'v4l2_camera' in 'src/ros2_v4l2_camera'
+[4.718s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'carlikebot_ros2_control' in 'src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control'
+[4.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.773s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/seav2/install
+[4.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/pi/ss25/install
+[4.791s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pi/ss25/src/description/description/install
+[4.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/ss25/src/summary/install
+[4.806s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/ss25/src/install
+[4.824s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/demo_testing_9_april/seav/install
+[4.830s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/install
+[4.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[4.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.547s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_args' from command line to 'None'
+[5.547s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_target' from command line to 'None'
+[5.548s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.548s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_clean_first' from command line to 'False'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_force_configure' from command line to 'False'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'ament_cmake_args' from command line to 'None'
+[5.550s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[5.550s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.550s] DEBUG:colcon.colcon_core.verb:Building package 'seav2_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/seav2_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/seav2_imu', 'merge_install': False, 'path': '/home/pi/seav2/src/seav2_imu', 'symlink_install': True, 'test_result_base': None}
+[5.552s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.559s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.561s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/seav2/src/seav2_imu' with build type 'ament_python'
+[5.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2_imu', 'ament_prefix_path')
+[5.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.ps1'
+[5.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.dsv'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.sh'
+[5.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/seav2/src/seav2_imu'
+[9.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.871s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/pi/seav2/install/seav2_imu/share/ament_index/resource_index/packages/seav2_imu
+[14.872s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/pi/seav2/install/seav2_imu/share/seav2_imu/package.xml
+[14.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/seav2_imu': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data --force
+[21.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2_imu', 'pythonpath_develop')
+[21.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/build/seav2_imu/share/seav2_imu/hook/pythonpath_develop.ps1'
+[21.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/seav2_imu' returned '0': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/seav2/build/seav2_imu/build --no-deps symlink_data --force
+[21.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/build/seav2_imu/share/seav2_imu/hook/pythonpath_develop.dsv'
+[21.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/build/seav2_imu/share/seav2_imu/hook/pythonpath_develop.sh'
+[21.991s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu' for CMake module files
+[21.997s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu' for CMake config files
+[22.006s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib'
+[22.008s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/bin'
+[22.009s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib/pkgconfig/seav2_imu.pc'
+[22.011s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages'
+[22.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2_imu', 'pythonpath')
+[22.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.ps1'
+[22.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.dsv'
+[22.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.sh'
+[22.029s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/bin'
+[22.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(seav2_imu)
+[22.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.ps1'
+[22.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.dsv'
+[22.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.sh'
+[22.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.bash'
+[22.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.zsh'
+[22.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/seav2_imu/share/colcon-core/packages/seav2_imu)
+[22.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.085s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.145s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.146s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.146s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.154s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[22.155s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.ps1'
+[22.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/seav2/install/_local_setup_util_ps1.py'
+[22.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.ps1'
+[22.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.sh'
+[22.229s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/seav2/install/_local_setup_util_sh.py'
+[22.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.sh'
+[22.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.bash'
+[22.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.bash'
+[22.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.zsh'
+[22.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.zsh'

@@ -1,0 +1,63 @@
+[0.078s] Invoking command in '/home/pi/seav2/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/v4l2_camera
+[0.422s] -- The C compiler identification is GNU 11.4.0
+[0.733s] -- The CXX compiler identification is GNU 11.4.0
+[0.771s] -- Detecting C compiler ABI info
+[1.148s] -- Detecting C compiler ABI info - done
+[1.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.181s] -- Detecting C compile features
+[1.182s] -- Detecting C compile features - done
+[1.195s] -- Detecting CXX compiler ABI info
+[1.618s] -- Detecting CXX compiler ABI info - done
+[1.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.649s] -- Detecting CXX compile features
+[1.651s] -- Detecting CXX compile features - done
+[1.729s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.956s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.356s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.635s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[5.558s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.703s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.864s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.117s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.196s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.221s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.421s] -- Looking for pthread.h
+[9.827s] -- Looking for pthread.h - found
+[9.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.242s] -- Found Threads: TRUE  
+[10.783s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[11.222s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[11.787s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[11.962s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[12.523s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.538s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi/seav2/src/ros2_v4l2_camera/include>
+[13.539s] -- Configured cppcheck exclude dirs and/or files: 
+[13.588s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.589s] -- Configured cpplint exclude dirs and/or files: 
+[13.612s] -- Added test 'lint_cmake' to check CMake code style
+[13.667s] -- Added test 'uncrustify' to check C / C++ code style
+[13.667s] -- Configured uncrustify additional arguments: 
+[13.681s] -- Added test 'xmllint' to check XML markup files
+[13.716s] -- Configuring done
+[13.850s] -- Generating done
+[13.883s] -- Build files have been written to: /home/pi/seav2/build/v4l2_camera
+[13.931s] Invoked command in '/home/pi/seav2/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/v4l2_camera
+[13.945s] Invoking command in '/home/pi/seav2/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/v4l2_camera -- -j4 -l4
+[14.215s] [ 12%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o[0m
+[14.218s] [ 25%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[14.224s] [ 37%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[16.489s] [01m[K/home/pi/seav2/src/ros2_v4l2_camera/src/v4l2_camera.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[16.490s]    23 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+[16.491s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.492s] compilation terminated.
+[16.506s] gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:90: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[16.507s] gmake[2]: *** Waiting for unfinished jobs....
+[50.522s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[50.523s] gmake: *** [Makefile:146: all] Error 2
+[50.531s] Invoked command in '/home/pi/seav2/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/robot_cam_ros:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/v4l2_camera -- -j4 -l4

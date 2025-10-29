@@ -1,0 +1,21 @@
+[0.456s] Invoking command in '/home/pi/seav2/build/carlikebot_ros2_control': CMAKE_PREFIX_PATH=/home/pi/seav2/install/serial:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/carlikebot_ros2_control
+[0.843s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.614s] -- Found serial: 1.2.1 (/home/pi/seav2/install/serial/share/serial/cmake)
+[5.640s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[7.647s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.692s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.955s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.027s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.075s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.425s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.548s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.848s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.970s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[15.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.171s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[37.491s] -- Configuring done
+[37.709s] -- Generating done
+[37.763s] -- Build files have been written to: /home/pi/seav2/build/carlikebot_ros2_control

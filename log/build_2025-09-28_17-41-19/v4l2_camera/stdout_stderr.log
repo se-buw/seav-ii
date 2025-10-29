@@ -1,0 +1,8 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[01m[K/home/pi/seav2/src/ros2_v4l2_camera/src/v4l2_camera.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   23 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:90: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

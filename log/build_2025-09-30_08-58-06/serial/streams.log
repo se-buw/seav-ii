@@ -1,0 +1,34 @@
+[0.513s] Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/serial -- -j4 -l4
+[4.548s] [ 28%] Built target serial
+[4.550s] [ 42%] Built target gtest_main
+[4.551s] [ 57%] Built target gtest
+[4.552s] [ 71%] Built target serial_example
+[4.553s] [ 85%] Built target serial-test-timer
+[4.554s] [100%] Built target serial-test
+[8.542s] Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/serial -- -j4 -l4
+[8.677s] Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/serial
+[8.685s] -- Install configuration: ""
+[8.686s] -- Execute custom install script
+[8.688s] -- Up-to-date symlink: /home/pi/seav2/install/serial/lib/libserial.a
+[8.690s] -- Up-to-date symlink: /home/pi/seav2/install/serial/include/serial/serial.h
+[8.692s] -- Up-to-date symlink: /home/pi/seav2/install/serial/include/serial/v8stdint.h
+[8.694s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/library_path.sh
+[8.695s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/library_path.dsv
+[8.696s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[8.699s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[8.701s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/ament_prefix_path.sh
+[8.702s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[8.703s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/path.sh
+[8.705s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/environment/path.dsv
+[8.708s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/local_setup.bash
+[8.711s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/local_setup.sh
+[8.720s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/local_setup.zsh
+[8.722s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/local_setup.dsv
+[8.723s] -- Symlinking: /home/pi/seav2/install/serial/share/serial/package.dsv
+[8.808s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/ament_index/resource_index/packages/serial
+[8.812s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.814s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[8.823s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/cmake/serialConfig.cmake
+[8.827s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[8.830s] -- Up-to-date symlink: /home/pi/seav2/install/serial/share/serial/package.xml
+[9.110s] Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/serial

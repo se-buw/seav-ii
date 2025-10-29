@@ -1,0 +1,544 @@
+[1.426s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.427s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8db45c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8dcdefb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8dcdefb0>>)
+[4.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.097s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/seav2'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore_ament_install'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_pkg']
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_pkg'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_meta']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_meta'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ros']
+[4.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ros'
+[4.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[4.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ignore'
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ignore_ament_install'
+[4.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['colcon_pkg']
+[4.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'colcon_pkg'
+[4.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['colcon_meta']
+[4.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'colcon_meta'
+[4.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extensions ['ros']
+[4.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam_ros) by extension 'ros'
+[4.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_cam_ros' with type 'ros.ament_python' and name 'robot_cam_ros'
+[4.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[4.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[4.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[4.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[4.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[4.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[4.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['ignore', 'ignore_ament_install']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ignore'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ignore_ament_install'
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['colcon_pkg']
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'colcon_pkg'
+[4.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['colcon_meta']
+[4.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'colcon_meta'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['ros']
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'ros'
+[4.312s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/seav-ii': Error(s) in package 'src/seav-ii/package.xml':
+The manifest contains invalid XML:
+junk after document element: line 21, column 0
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['cmake', 'python']
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'cmake'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'python'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extensions ['python_setup_py']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii) by extension 'python_setup_py'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) by extensions ['ignore', 'ignore_ament_install']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) by extension 'ignore'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/build) ignored
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ignore'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ignore_ament_install'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['colcon_pkg']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'colcon_pkg'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['colcon_meta']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'colcon_meta'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['ros']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'ros'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['cmake', 'python']
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'cmake'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'python'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extensions ['python_setup_py']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control) by extension 'python_setup_py'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ignore'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ignore_ament_install'
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['colcon_pkg']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'colcon_pkg'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['colcon_meta']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'colcon_meta'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extensions ['ros']
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control) by extension 'ros'
+[4.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control' with type 'ros.ament_cmake' and name 'carlikebot_ros2_control'
+[4.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ignore'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ignore_ament_install'
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['colcon_pkg']
+[4.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'colcon_pkg'
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['colcon_meta']
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'colcon_meta'
+[4.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extensions ['ros']
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description) by extension 'ros'
+[4.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) by extensions ['ignore', 'ignore_ament_install']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) by extension 'ignore'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/install) ignored
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) by extensions ['ignore', 'ignore_ament_install']
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) by extension 'ignore'
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/log) ignored
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) by extension 'ignore'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/ros_arduino_bridge) ignored
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['ignore', 'ignore_ament_install']
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ignore'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ignore_ament_install'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['colcon_pkg']
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'colcon_pkg'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['colcon_meta']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'colcon_meta'
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extensions ['ros']
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav-ii/seav2) by extension 'ros'
+[4.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav-ii/seav2' with type 'ros.ament_cmake' and name 'seav2'
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['ignore', 'ignore_ament_install']
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ignore'
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ignore_ament_install'
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['colcon_pkg']
+[4.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'colcon_pkg'
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['colcon_meta']
+[4.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'colcon_meta'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extensions ['ros']
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/seav2_imu) by extension 'ros'
+[4.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/seav2_imu' with type 'ros.ament_python' and name 'seav2_imu'
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[4.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[4.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.783s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/seav2/install
+[4.794s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/pi/ss25/install
+[4.801s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pi/ss25/src/description/description/install
+[4.807s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/ss25/src/summary/install
+[4.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/ss25/src/install
+[4.834s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pi/demo_testing_9_april/seav/install
+[4.839s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/install
+[4.876s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.540s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[5.541s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[5.541s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.542s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[5.542s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[5.542s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[5.542s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[5.543s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[5.543s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.544s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/ball_tracker', 'merge_install': False, 'path': '/home/pi/seav2/src/ball_tracker', 'symlink_install': False, 'test_result_base': None}
+[5.548s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_args' from command line to 'None'
+[5.548s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_target' from command line to 'None'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[5.549s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_clean_first' from command line to 'False'
+[5.550s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'cmake_force_configure' from command line to 'False'
+[5.550s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'ament_cmake_args' from command line to 'None'
+[5.550s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[5.551s] Level 5:colcon.colcon_core.verb:set package 'robot_cam_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.551s] DEBUG:colcon.colcon_core.verb:Building package 'robot_cam_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/robot_cam_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/robot_cam_ros', 'merge_install': False, 'path': '/home/pi/seav2/src/robot_cam_ros', 'symlink_install': False, 'test_result_base': None}
+[5.555s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[5.555s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[5.556s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.556s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[5.556s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[5.557s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[5.557s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[5.557s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[5.558s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.558s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description', 'symlink_install': False, 'test_result_base': None}
+[5.562s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_args' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_target' from command line to 'None'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.563s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_clean_cache' from command line to 'False'
+[5.564s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_clean_first' from command line to 'False'
+[5.564s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'cmake_force_configure' from command line to 'False'
+[5.564s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'ament_cmake_args' from command line to 'None'
+[5.564s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'catkin_cmake_args' from command line to 'None'
+[5.565s] Level 5:colcon.colcon_core.verb:set package 'seav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.565s] DEBUG:colcon.colcon_core.verb:Building package 'seav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/seav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/seav2', 'merge_install': False, 'path': '/home/pi/seav2/src/seav-ii/seav2', 'symlink_install': False, 'test_result_base': None}
+[5.569s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_args' from command line to 'None'
+[5.570s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_target' from command line to 'None'
+[5.570s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.570s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[5.571s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_clean_first' from command line to 'False'
+[5.571s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'cmake_force_configure' from command line to 'False'
+[5.571s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'ament_cmake_args' from command line to 'None'
+[5.571s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[5.572s] Level 5:colcon.colcon_core.verb:set package 'seav2_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.572s] DEBUG:colcon.colcon_core.verb:Building package 'seav2_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/seav2_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/seav2_imu', 'merge_install': False, 'path': '/home/pi/seav2/src/seav2_imu', 'symlink_install': False, 'test_result_base': None}
+[5.576s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[5.577s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[5.577s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.577s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[5.578s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[5.578s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[5.578s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[5.578s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[5.579s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.579s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/serial', 'merge_install': False, 'path': '/home/pi/seav2/src/serial', 'symlink_install': False, 'test_result_base': None}
+[5.583s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[5.583s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[5.584s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.584s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[5.584s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[5.585s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[5.585s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[5.585s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[5.586s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.586s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/v4l2_camera', 'merge_install': False, 'path': '/home/pi/seav2/src/ros2_v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[5.590s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_args' from command line to 'None'
+[5.590s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_target' from command line to 'None'
+[5.591s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.591s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[5.591s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[5.592s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[5.592s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[5.592s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[5.593s] Level 5:colcon.colcon_core.verb:set package 'carlikebot_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.593s] DEBUG:colcon.colcon_core.verb:Building package 'carlikebot_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/seav2/build/carlikebot_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/seav2/install/carlikebot_ros2_control', 'merge_install': False, 'path': '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[5.594s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description' with build type 'ament_cmake'
+[5.606s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description'
+[5.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.773s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/seav2/src/serial' with build type 'ament_cmake'
+[5.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/seav2/src/serial'
+[5.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.906s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/seav2/src/ball_tracker' with build type 'ament_python'
+[5.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[5.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[5.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[5.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[5.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.068s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/seav2/src/robot_cam_ros' with build type 'ament_python'
+[6.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cam_ros', 'ament_prefix_path')
+[6.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/ament_prefix_path.ps1'
+[6.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/ament_prefix_path.dsv'
+[6.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/ament_prefix_path.sh'
+[6.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/ros2_control_demo_description
+[6.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/serial
+[11.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/seav2/src/ball_tracker'
+[11.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/ros2_control_demo_description
+[11.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/ros2_control_demo_description -- -j4 -l4
+[15.293s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/seav2/src/robot_cam_ros'
+[15.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/serial -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/serial
+[15.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/serial -- -j4 -l4
+[15.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/ros2_control_demo_description -- -j4 -l4
+[15.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/ros2_control_demo_description
+[16.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[16.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/ros2_control_demo_description
+[16.324s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description' for CMake module files
+[16.337s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description' for CMake config files
+[16.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[16.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[16.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[16.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[16.398s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/bin'
+[16.399s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[16.402s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[16.404s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/bin'
+[16.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[16.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[16.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[16.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[16.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[16.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[16.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[16.475s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description' for CMake module files
+[16.485s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description' for CMake config files
+[16.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[16.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[16.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[16.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[16.518s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/bin'
+[16.519s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[16.522s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[16.525s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ros2_control_demo_description/bin'
+[16.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[16.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[16.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[16.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[16.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[16.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[16.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/seav2/src/seav-ii/seav2' with build type 'ament_cmake'
+[16.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/seav2/src/seav-ii/seav2'
+[16.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/seav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/seav2 -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/seav2
+[17.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/serial -- -j4 -l4
+[17.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/serial
+[18.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[18.129s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial' for CMake module files
+[18.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/serial
+[18.143s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial' for CMake config files
+[18.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[18.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[18.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[18.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib'
+[18.182s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/bin'
+[18.183s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib/pkgconfig/serial.pc'
+[18.187s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib/python3.10/site-packages'
+[18.190s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/bin'
+[18.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.ps1'
+[18.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/serial/share/serial/package.dsv'
+[18.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.sh'
+[18.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.bash'
+[18.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.zsh'
+[18.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/serial/share/colcon-core/packages/serial)
+[18.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[18.250s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial' for CMake module files
+[18.259s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial' for CMake config files
+[18.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[18.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[18.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[18.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[18.295s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib'
+[18.298s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/bin'
+[18.299s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib/pkgconfig/serial.pc'
+[18.303s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/lib/python3.10/site-packages'
+[18.306s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/serial/bin'
+[18.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.ps1'
+[18.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/serial/share/serial/package.dsv'
+[18.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.sh'
+[18.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.bash'
+[18.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/serial/share/serial/package.zsh'
+[18.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/serial/share/colcon-core/packages/serial)
+[18.371s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/seav2/src/seav2_imu' with build type 'ament_python'
+[18.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2_imu', 'ament_prefix_path')
+[18.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.ps1'
+[18.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.dsv'
+[18.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/ament_prefix_path.sh'
+[18.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.534s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/seav2/src/seav2_imu'
+[23.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/ball_tracker/build
+[23.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/robot_cam_ros/build
+[23.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/seav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/seav2 -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/seav2
+[23.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/seav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/seav2 -- -j4 -l4
+[24.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/seav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/seav2 -- -j4 -l4
+[24.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/seav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/seav2
+[24.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(seav2)
+[24.904s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2' for CMake module files
+[24.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/seav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/seav2/build/seav2
+[24.926s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2' for CMake config files
+[24.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2', 'cmake_prefix_path')
+[24.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.ps1'
+[24.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.dsv'
+[24.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.sh'
+[24.997s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/bin'
+[24.998s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/lib/pkgconfig/seav2.pc'
+[25.001s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/lib/python3.10/site-packages'
+[25.004s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/bin'
+[25.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.ps1'
+[25.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/seav2/share/seav2/package.dsv'
+[25.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.sh'
+[25.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.bash'
+[25.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.zsh'
+[25.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/seav2/share/colcon-core/packages/seav2)
+[25.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(seav2)
+[25.065s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2' for CMake module files
+[25.075s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2' for CMake config files
+[25.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2', 'cmake_prefix_path')
+[25.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.ps1'
+[25.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.dsv'
+[25.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2/share/seav2/hook/cmake_prefix_path.sh'
+[25.113s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/bin'
+[25.115s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/lib/pkgconfig/seav2.pc'
+[25.119s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/lib/python3.10/site-packages'
+[25.122s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2/bin'
+[25.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.ps1'
+[25.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/seav2/share/seav2/package.dsv'
+[25.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.sh'
+[25.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.bash'
+[25.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2/share/seav2/package.zsh'
+[25.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/seav2/share/colcon-core/packages/seav2)
+[25.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/seav2/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[25.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/seav2/src/ros2_v4l2_camera'
+[25.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/v4l2_camera
+[30.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/seav2_imu': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/seav2_imu/build
+[32.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/robot_cam_ros' returned '0': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/robot_cam_ros/build
+[32.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/src/robot_cam_ros': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data --force
+[32.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/ball_tracker' returned '0': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/ball_tracker/build
+[33.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/src/ball_tracker': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/pi/seav2/build/ball_tracker/build install --record /home/pi/seav2/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force
+[38.145s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros' for CMake module files
+[38.158s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros' for CMake config files
+[38.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/src/robot_cam_ros' returned '0': PYTHONPATH=/home/pi/seav2/build/robot_cam_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_cam_ros build --build-base /home/pi/seav2/build/robot_cam_ros/build install --record /home/pi/seav2/build/robot_cam_ros/install.log --single-version-externally-managed install_data --force
+[38.171s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros/lib'
+[38.181s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros/bin'
+[38.192s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros/lib/pkgconfig/robot_cam_ros.pc'
+[38.196s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros/lib/python3.10/site-packages'
+[38.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cam_ros', 'pythonpath')
+[38.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/pythonpath.ps1'
+[38.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/pythonpath.dsv'
+[38.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/hook/pythonpath.sh'
+[38.251s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/robot_cam_ros/bin'
+[38.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_cam_ros)
+[38.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/package.ps1'
+[38.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/package.dsv'
+[38.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/package.sh'
+[38.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/package.bash'
+[38.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/robot_cam_ros/share/robot_cam_ros/package.zsh'
+[38.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/robot_cam_ros/share/colcon-core/packages/robot_cam_ros)
+[38.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control' with build type 'ament_cmake'
+[38.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/seav2/src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control'
+[38.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/carlikebot_ros2_control': CMAKE_PREFIX_PATH=/home/pi/seav2/install/serial:/home/pi/seav2/install/ros2_control_demo_description:/home/pi/seav2/install/carlikebot_ros2_control:/home/pi/seav2/install/seav2:/home/pi/ss25/install/sllidar_ros2:/home/pi/ss25/src/install/sllidar_ros2:/home/pi/demo_testing_9_april/seav/install/seav_simulation:/home/pi/demo_testing_9_april/seav/install/seav_description:/home/pi/demo_testing_9_april/seav/install/rplidar_ros:/home/pi/demo_testing_9_april/seav/install/my_nav2_pkg:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/seav-ii/carlikebot_ros2_control/carlikebot_ros2_control -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/carlikebot_ros2_control
+[38.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/seav2/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/pi/seav2/install/v4l2_camera
+[38.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/v4l2_camera -- -j4 -l4
+[39.574s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker' for CMake module files
+[39.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/src/ball_tracker' returned '0': PYTHONPATH=/home/pi/seav2/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/pi/seav2/build/ball_tracker/build install --record /home/pi/seav2/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force
+[39.587s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker' for CMake config files
+[39.624s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker/lib'
+[39.627s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker/bin'
+[39.629s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[39.633s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker/lib/python3.10/site-packages'
+[39.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[39.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[39.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[39.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[39.680s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/ball_tracker/bin'
+[39.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[39.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ball_tracker/share/ball_tracker/package.ps1'
+[39.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/ball_tracker/share/ball_tracker/package.dsv'
+[39.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ball_tracker/share/ball_tracker/package.sh'
+[39.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ball_tracker/share/ball_tracker/package.bash'
+[39.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/ball_tracker/share/ball_tracker/package.zsh'
+[39.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[40.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/seav2_imu' returned '0': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/seav2/build/seav2_imu/build
+[40.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/seav2/src/seav2_imu': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/seav2_imu build --build-base /home/pi/seav2/build/seav2_imu/build install --record /home/pi/seav2/build/seav2_imu/install.log --single-version-externally-managed install_data --force
+[47.827s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu' for CMake module files
+[47.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/src/seav2_imu' returned '0': PYTHONPATH=/home/pi/seav2/build/seav2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/seav2_imu build --build-base /home/pi/seav2/build/seav2_imu/build install --record /home/pi/seav2/build/seav2_imu/install.log --single-version-externally-managed install_data --force
+[47.839s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu' for CMake config files
+[47.863s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib'
+[47.865s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/bin'
+[47.866s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib/pkgconfig/seav2_imu.pc'
+[47.868s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/lib/python3.10/site-packages'
+[47.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('seav2_imu', 'pythonpath')
+[47.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.ps1'
+[47.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.dsv'
+[47.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/seav2/install/seav2_imu/share/seav2_imu/hook/pythonpath.sh'
+[47.907s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/seav2_imu/bin'
+[47.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(seav2_imu)
+[47.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.ps1'
+[47.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.dsv'
+[47.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.sh'
+[47.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.bash'
+[47.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/seav2_imu/share/seav2_imu/package.zsh'
+[47.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/seav2_imu/share/colcon-core/packages/seav2_imu)
+[48.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[48.866s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera' for CMake module files
+[48.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/seav2/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/seav2/install/seav2_imu:/home/pi/seav2/install/robot_cam_ros:/home/pi/seav2/install/ball_tracker:/home/pi/ss25/install/wheel_odometry:/home/pi/ss25/install/vup_2k7:/home/pi/ss25/install/summary:/home/pi/ss25/install/safety_control:/home/pi/ss25/install/project:/home/pi/ss25/install/my_slam:/home/pi/ss25/install/my_motor_driver:/home/pi/ss25/install/final:/home/pi/ss25/install/description:/home/pi/ss25/install/bringup_pkg:/home/pi/ss25/src/summary/install/summary:/home/pi/ss25/src/install/wheel_odometry:/home/pi/ss25/src/install/summary:/home/pi/ss25/src/install/safety_control:/home/pi/ss25/src/install/project:/home/pi/ss25/src/install/my_motor_driver:/home/pi/ss25/src/install/description:/home/pi/ss25/src/install/bringup_pkg:/home/pi/install/summary:/home/pi/demo_testing_9_april/seav/install/yolov8_ros:/home/pi/demo_testing_9_april/seav/install/static_tf_publisher:/home/pi/demo_testing_9_april/seav/install/seav_test_sensors:/home/pi/demo_testing_9_april/seav/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/seav2/build/v4l2_camera -- -j4 -l4
+[48.881s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera' for CMake config files
+[48.894s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera/bin'
+[48.895s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[48.906s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera/lib/python3.10/site-packages'
+[48.909s] Level 1:colcon.colcon_core.environment:checking '/home/pi/seav2/install/v4l2_camera/bin'
+[48.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[48.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/seav2/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[48.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/v4l2_camera/share/v4l2_camera/package.sh'
+[48.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/v4l2_camera/share/v4l2_camera/package.bash'
+[48.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/seav2/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[48.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/seav2/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[68.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[68.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[68.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[68.713s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[68.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[68.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[68.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[68.785s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[68.793s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[68.794s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[68.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.ps1'
+[68.806s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/seav2/install/_local_setup_util_ps1.py'
+[68.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.ps1'
+[68.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.sh'
+[68.868s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/seav2/install/_local_setup_util_sh.py'
+[68.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.sh'
+[68.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.bash'
+[68.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.bash'
+[68.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/seav2/install/local_setup.zsh'
+[68.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/seav2/install/setup.zsh'
